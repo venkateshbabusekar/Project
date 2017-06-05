@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4lpA7MWpQpY7hKkwfLxw2Q"
+    },
+    "href" : "https://api.spotify.com/v1/artists/4lpA7MWpQpY7hKkwfLxw2Q",
+    "id" : "4lpA7MWpQpY7hKkwfLxw2Q",
+    "name" : "Lindsay Ell",
+    "type" : "artist",
+    "uri" : "spotify:artist:4lpA7MWpQpY7hKkwfLxw2Q"
+  } ],
+  "available_markets" : [ "CA", "US" ],
+  "copyrights" : [ {
+    "text" : "(P) 2015 Stoney Creek Records",
+    "type" : "P"
+  } ],
+  "external_ids" : {
+    "upc" : "886445526394"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/20MUOmHZ0gJ476mVOyT4OI"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/20MUOmHZ0gJ476mVOyT4OI",
+  "id" : "20MUOmHZ0gJ476mVOyT4OI",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/9384cba9e08790c0b3db7cd63a9046aed8c192df",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/e745cbf36b79e6789604f878d516b2eb93e83690",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/cc312c1ec85eb503ccd0c105bd5a91fe147e22a1",
+    "width" : 64
+  } ],
+  "label" : "Stoney Creek Records",
+  "name" : "By The Way",
+  "popularity" : 32,
+  "release_date" : "2015-10-02",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/20MUOmHZ0gJ476mVOyT4OI/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4lpA7MWpQpY7hKkwfLxw2Q"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4lpA7MWpQpY7hKkwfLxw2Q",
+        "id" : "4lpA7MWpQpY7hKkwfLxw2Q",
+        "name" : "Lindsay Ell",
+        "type" : "artist",
+        "uri" : "spotify:artist:4lpA7MWpQpY7hKkwfLxw2Q"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 182706,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5i2c4cCB7Um6qoN8O4kpRD"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5i2c4cCB7Um6qoN8O4kpRD",
+      "id" : "5i2c4cCB7Um6qoN8O4kpRD",
+      "name" : "By The Way",
+      "preview_url" : "https://p.scdn.co/mp3-preview/435e819ff4ac384e09d4f24eef0652267439b7e3?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:5i2c4cCB7Um6qoN8O4kpRD"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:20MUOmHZ0gJ476mVOyT4OI"
+}

@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1kDGbuxWknIKx4FlgWxiSp"
+    },
+    "href" : "https://api.spotify.com/v1/artists/1kDGbuxWknIKx4FlgWxiSp",
+    "id" : "1kDGbuxWknIKx4FlgWxiSp",
+    "name" : "Nothing but Thieves",
+    "type" : "artist",
+    "uri" : "spotify:artist:1kDGbuxWknIKx4FlgWxiSp"
+  } ],
+  "available_markets" : [ "US" ],
+  "copyrights" : [ {
+    "text" : "(P) 2013 Sony Music Entertainment UK Limited",
+    "type" : "P"
+  } ],
+  "external_ids" : {
+    "upc" : "886445598896"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/5rY0top7Ld4JEQKjurftwJ"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/5rY0top7Ld4JEQKjurftwJ",
+  "id" : "5rY0top7Ld4JEQKjurftwJ",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/aa293eb6c59d87031472800c712603616eb4c556",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/6e453b7d3bd9301486b5e328ed6642756c3fd54b",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/af4d9e29632b40d1c0a132e20c68bd2798e6a0da",
+    "width" : 64
+  } ],
+  "label" : "RCA Records Label",
+  "name" : "Emergency",
+  "popularity" : 29,
+  "release_date" : "2013",
+  "release_date_precision" : "year",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/5rY0top7Ld4JEQKjurftwJ/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1kDGbuxWknIKx4FlgWxiSp"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1kDGbuxWknIKx4FlgWxiSp",
+        "id" : "1kDGbuxWknIKx4FlgWxiSp",
+        "name" : "Nothing but Thieves",
+        "type" : "artist",
+        "uri" : "spotify:artist:1kDGbuxWknIKx4FlgWxiSp"
+      } ],
+      "available_markets" : [ "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 266920,
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2ZQJd2h0hBeawQhsLlYCNM"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2ZQJd2h0hBeawQhsLlYCNM",
+      "id" : "2ZQJd2h0hBeawQhsLlYCNM",
+      "name" : "Emergency",
+      "preview_url" : "https://p.scdn.co/mp3-preview/40d346e487d8bba763c43f7c37d57353376642ee?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:2ZQJd2h0hBeawQhsLlYCNM"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:5rY0top7Ld4JEQKjurftwJ"
+}

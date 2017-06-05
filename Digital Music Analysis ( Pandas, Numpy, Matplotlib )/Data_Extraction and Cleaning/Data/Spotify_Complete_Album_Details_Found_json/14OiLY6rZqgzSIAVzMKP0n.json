@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5qV4mCWmbNgNhtkZynob4D"
+    },
+    "href" : "https://api.spotify.com/v1/artists/5qV4mCWmbNgNhtkZynob4D",
+    "id" : "5qV4mCWmbNgNhtkZynob4D",
+    "name" : "Kylee",
+    "type" : "artist",
+    "uri" : "spotify:artist:5qV4mCWmbNgNhtkZynob4D"
+  } ],
+  "available_markets" : [ "US" ],
+  "copyrights" : [ {
+    "text" : "(P) 2008 DefStar Records Inc.",
+    "type" : "P"
+  } ],
+  "external_ids" : {
+    "upc" : "888880745347"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/14OiLY6rZqgzSIAVzMKP0n"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/14OiLY6rZqgzSIAVzMKP0n",
+  "id" : "14OiLY6rZqgzSIAVzMKP0n",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/9935dc67ee8f7cf948d9dd5318f11d78128d0923",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/f8a7a2c79268ab4e7efce5bc67f008864da597fb",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/cafa4a5f82c7dfe856d2eb6c4e547cbdf79d95aa",
+    "width" : 64
+  } ],
+  "label" : "Defstar Records",
+  "name" : "Vacancy",
+  "popularity" : 4,
+  "release_date" : "2008-10-14",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/14OiLY6rZqgzSIAVzMKP0n/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5qV4mCWmbNgNhtkZynob4D"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5qV4mCWmbNgNhtkZynob4D",
+        "id" : "5qV4mCWmbNgNhtkZynob4D",
+        "name" : "Kylee",
+        "type" : "artist",
+        "uri" : "spotify:artist:5qV4mCWmbNgNhtkZynob4D"
+      } ],
+      "available_markets" : [ "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 273880,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1XXjfFrx2z7CJINGpjBDli"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1XXjfFrx2z7CJINGpjBDli",
+      "id" : "1XXjfFrx2z7CJINGpjBDli",
+      "name" : "Vacancy",
+      "preview_url" : "https://p.scdn.co/mp3-preview/27e8dfd8ce6a81c7133466396dc0e9fdcde93dc9?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:1XXjfFrx2z7CJINGpjBDli"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:14OiLY6rZqgzSIAVzMKP0n"
+}

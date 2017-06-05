@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/2vhrwzjf9H3icunkVFi9tq"
+    },
+    "href" : "https://api.spotify.com/v1/artists/2vhrwzjf9H3icunkVFi9tq",
+    "id" : "2vhrwzjf9H3icunkVFi9tq",
+    "name" : "Smash Into Pieces",
+    "type" : "artist",
+    "uri" : "spotify:artist:2vhrwzjf9H3icunkVFi9tq"
+  } ],
+  "available_markets" : [ "CA", "US" ],
+  "copyrights" : [ {
+    "text" : "(C) 2016 Gain",
+    "type" : "C"
+  } ],
+  "external_ids" : {
+    "upc" : "886445669121"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/0UGaJj6poJdKGDl9KbTiF2"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/0UGaJj6poJdKGDl9KbTiF2",
+  "id" : "0UGaJj6poJdKGDl9KbTiF2",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/efab704bda017eabe19e7382bec8e7e10cce048d",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/064ae350cb3945142bfc9affd082ad1c8cf64a90",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/a7a5cbec6b3403f7a885ce432234defbe5a98088",
+    "width" : 64
+  } ],
+  "label" : "Gain",
+  "name" : "Merry Go Round",
+  "popularity" : 12,
+  "release_date" : "2016-01-29",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/0UGaJj6poJdKGDl9KbTiF2/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2vhrwzjf9H3icunkVFi9tq"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2vhrwzjf9H3icunkVFi9tq",
+        "id" : "2vhrwzjf9H3icunkVFi9tq",
+        "name" : "Smash Into Pieces",
+        "type" : "artist",
+        "uri" : "spotify:artist:2vhrwzjf9H3icunkVFi9tq"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 223437,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4fFnx26xwbtnI2ujTf5M8N"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4fFnx26xwbtnI2ujTf5M8N",
+      "id" : "4fFnx26xwbtnI2ujTf5M8N",
+      "name" : "Merry Go Round",
+      "preview_url" : "https://p.scdn.co/mp3-preview/94fdf15fe8771a2645231ef961074438f7dabded?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:4fFnx26xwbtnI2ujTf5M8N"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:0UGaJj6poJdKGDl9KbTiF2"
+}

@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/6OFlV44EbP8TpdpWPVTbwN"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/6OFlV44EbP8TpdpWPVTbwN",
+  "id" : "6OFlV44EbP8TpdpWPVTbwN",
+  "images" : [ ],
+  "name" : "At80",
+  "popularity" : 0,
+  "type" : "artist",
+  "uri" : "spotify:artist:6OFlV44EbP8TpdpWPVTbwN"
+}

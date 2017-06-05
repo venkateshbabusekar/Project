@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=early+dawg&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5udgy2xk333j33hKnwDz8O"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5udgy2xk333j33hKnwDz8O",
+        "id" : "5udgy2xk333j33hKnwDz8O",
+        "name" : "David Grisman",
+        "type" : "artist",
+        "uri" : "spotify:artist:5udgy2xk333j33hKnwDz8O"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0N84N7SzoTI8aJP5isJqlv"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0N84N7SzoTI8aJP5isJqlv",
+      "id" : "0N84N7SzoTI8aJP5isJqlv",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/0a35962a791c6c4d836c46eedc4115bff99fbec9",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/d51ef53ea656a0d9731855870320efa5a861d510",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/afac7ac8673903b58751d2d7d8aafd257f0d7112",
+        "width" : 64
+      } ],
+      "name" : "Early Dawg",
+      "type" : "album",
+      "uri" : "spotify:album:0N84N7SzoTI8aJP5isJqlv"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

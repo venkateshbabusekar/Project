@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=silverbeet&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2YvNi4oPdBgD45gc1UycxW"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2YvNi4oPdBgD45gc1UycxW",
+        "id" : "2YvNi4oPdBgD45gc1UycxW",
+        "name" : "The Bats",
+        "type" : "artist",
+        "uri" : "spotify:artist:2YvNi4oPdBgD45gc1UycxW"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1sbW9mrBEktB212djxsm03"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1sbW9mrBEktB212djxsm03",
+      "id" : "1sbW9mrBEktB212djxsm03",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/c013731a76f51035c36d4840e21e5830567e84c8",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/2835f700ed8497ed00db0129751fb57441374c58",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/be1adb032ea57df48e94c149215d432f40c51e1b",
+        "width" : 64
+      } ],
+      "name" : "Silverbeet",
+      "type" : "album",
+      "uri" : "spotify:album:1sbW9mrBEktB212djxsm03"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

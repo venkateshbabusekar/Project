@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/2H9QojxLXm6rs04rJnynCL"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 6
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/2H9QojxLXm6rs04rJnynCL",
+  "id" : "2H9QojxLXm6rs04rJnynCL",
+  "images" : [ ],
+  "name" : "Ess Be",
+  "popularity" : 1,
+  "type" : "artist",
+  "uri" : "spotify:artist:2H9QojxLXm6rs04rJnynCL"
+}

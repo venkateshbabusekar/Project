@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=21+at+33&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3PhoLpVuITZKcymswpck5b"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3PhoLpVuITZKcymswpck5b",
+        "id" : "3PhoLpVuITZKcymswpck5b",
+        "name" : "Elton John",
+        "type" : "artist",
+        "uri" : "spotify:artist:3PhoLpVuITZKcymswpck5b"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6di4cgOMxTkS0tUx5l07WW"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6di4cgOMxTkS0tUx5l07WW",
+      "id" : "6di4cgOMxTkS0tUx5l07WW",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/b8ed83c5f02f104dc90b37128962c449fb789bb8",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/093bd8cd43bfbfa037c6ab4437b0031fbd6bfe49",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/6572a3a0132f28f5cbeb1e0dacd1a3bba0d0caf8",
+        "width" : 64
+      } ],
+      "name" : "21 At 33",
+      "type" : "album",
+      "uri" : "spotify:album:6di4cgOMxTkS0tUx5l07WW"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

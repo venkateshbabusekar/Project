@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1WrqUPWlHN5FXCRcQgrkas"
+    },
+    "href" : "https://api.spotify.com/v1/artists/1WrqUPWlHN5FXCRcQgrkas",
+    "id" : "1WrqUPWlHN5FXCRcQgrkas",
+    "name" : "Lucius",
+    "type" : "artist",
+    "uri" : "spotify:artist:1WrqUPWlHN5FXCRcQgrkas"
+  } ],
+  "available_markets" : [ "MX", "US" ],
+  "copyrights" : [ {
+    "text" : "(C) 2016 Mom+Pop",
+    "type" : "C"
+  } ],
+  "external_ids" : {
+    "upc" : "886445655803"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/7D5G178cNBE5egGbvfLslP"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/7D5G178cNBE5egGbvfLslP",
+  "id" : "7D5G178cNBE5egGbvfLslP",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/11ec4a34c847d5e615d3f1af54cbefa6af0f8094",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/71426d0241da2a03173dd83bae381aee6f0c89e8",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/1e32dedc579d9375b6dccc1c91a3a675ecfd8326",
+    "width" : 64
+  } ],
+  "label" : "Mom & Pop Music",
+  "name" : "Dusty Trails",
+  "popularity" : 10,
+  "release_date" : "2016-02-26",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/7D5G178cNBE5egGbvfLslP/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1WrqUPWlHN5FXCRcQgrkas"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1WrqUPWlHN5FXCRcQgrkas",
+        "id" : "1WrqUPWlHN5FXCRcQgrkas",
+        "name" : "Lucius",
+        "type" : "artist",
+        "uri" : "spotify:artist:1WrqUPWlHN5FXCRcQgrkas"
+      } ],
+      "available_markets" : [ "MX", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 264040,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/61BJjdk5fPg1rP3IBONfhr"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/61BJjdk5fPg1rP3IBONfhr",
+      "id" : "61BJjdk5fPg1rP3IBONfhr",
+      "name" : "Dusty Trails",
+      "preview_url" : "https://p.scdn.co/mp3-preview/aef2027779c1c9bebb878ac9677e00bb4986606f?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:61BJjdk5fPg1rP3IBONfhr"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:7D5G178cNBE5egGbvfLslP"
+}

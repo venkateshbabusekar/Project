@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/3RsGHkHYZW0WkXcEf0CRdR"
+    },
+    "href" : "https://api.spotify.com/v1/artists/3RsGHkHYZW0WkXcEf0CRdR",
+    "id" : "3RsGHkHYZW0WkXcEf0CRdR",
+    "name" : "Jasmine Murray",
+    "type" : "artist",
+    "uri" : "spotify:artist:3RsGHkHYZW0WkXcEf0CRdR"
+  } ],
+  "available_markets" : [ "CA", "US" ],
+  "copyrights" : [ {
+    "text" : "(P) 2017 Fair Trade Services",
+    "type" : "P"
+  } ],
+  "external_ids" : {
+    "upc" : "886446319186"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/3Re4AH5fzwWwMFpU0z2vID"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/3Re4AH5fzwWwMFpU0z2vID",
+  "id" : "3Re4AH5fzwWwMFpU0z2vID",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/9b903008cef6e68204be69efbe47803aab9be08a",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/e36f3aac320a64a1794c18faa1e33ec419cc702e",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/2c1ce64f2af357b4e997d721fbdab12469b75cf7",
+    "width" : 64
+  } ],
+  "label" : "Fair Trade/Columbia",
+  "name" : "Fearless",
+  "popularity" : 46,
+  "release_date" : "2017-02-03",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/3Re4AH5fzwWwMFpU0z2vID/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3RsGHkHYZW0WkXcEf0CRdR"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3RsGHkHYZW0WkXcEf0CRdR",
+        "id" : "3RsGHkHYZW0WkXcEf0CRdR",
+        "name" : "Jasmine Murray",
+        "type" : "artist",
+        "uri" : "spotify:artist:3RsGHkHYZW0WkXcEf0CRdR"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 183413,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/77NdiuWw3pGMXkKFdLkGz7"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/77NdiuWw3pGMXkKFdLkGz7",
+      "id" : "77NdiuWw3pGMXkKFdLkGz7",
+      "name" : "Fearless",
+      "preview_url" : "https://p.scdn.co/mp3-preview/472a441aa8295f272dd2897addd3bc29befd41b8?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:77NdiuWw3pGMXkKFdLkGz7"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:3Re4AH5fzwWwMFpU0z2vID"
+}

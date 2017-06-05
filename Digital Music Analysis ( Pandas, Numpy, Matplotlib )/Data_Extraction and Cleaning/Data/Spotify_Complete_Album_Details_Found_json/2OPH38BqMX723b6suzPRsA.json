@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/2WIb75pwIt78VCAhAtPObY"
+    },
+    "href" : "https://api.spotify.com/v1/artists/2WIb75pwIt78VCAhAtPObY",
+    "id" : "2WIb75pwIt78VCAhAtPObY",
+    "name" : "Tanya Tagaq",
+    "type" : "artist",
+    "uri" : "spotify:artist:2WIb75pwIt78VCAhAtPObY"
+  } ],
+  "available_markets" : [ "US" ],
+  "copyrights" : [ {
+    "text" : "(C) 2016 Six Shooter Records Inc.",
+    "type" : "C"
+  } ],
+  "external_ids" : {
+    "upc" : "0836766009953"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/2OPH38BqMX723b6suzPRsA"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/2OPH38BqMX723b6suzPRsA",
+  "id" : "2OPH38BqMX723b6suzPRsA",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/c30f03211bd6fcc224dc9a58b62e61538ba248dc",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/2101b3d99994243ae6306da1b88322d6bbe977e8",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/d77139c8fb29186c7efff969e899000f8146966a",
+    "width" : 64
+  } ],
+  "label" : "Six Shooter Records, Inc.",
+  "name" : "AORTA",
+  "popularity" : 0,
+  "release_date" : "2016-01-12",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/2OPH38BqMX723b6suzPRsA/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2WIb75pwIt78VCAhAtPObY"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2WIb75pwIt78VCAhAtPObY",
+        "id" : "2WIb75pwIt78VCAhAtPObY",
+        "name" : "Tanya Tagaq",
+        "type" : "artist",
+        "uri" : "spotify:artist:2WIb75pwIt78VCAhAtPObY"
+      } ],
+      "available_markets" : [ "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 214881,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/38O0SFKvU5af24RwK3YRnJ"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/38O0SFKvU5af24RwK3YRnJ",
+      "id" : "38O0SFKvU5af24RwK3YRnJ",
+      "name" : "AORTA",
+      "preview_url" : "https://p.scdn.co/mp3-preview/12bb705319b19eee310206b8a2dd3249eb14d575?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:38O0SFKvU5af24RwK3YRnJ"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:2OPH38BqMX723b6suzPRsA"
+}

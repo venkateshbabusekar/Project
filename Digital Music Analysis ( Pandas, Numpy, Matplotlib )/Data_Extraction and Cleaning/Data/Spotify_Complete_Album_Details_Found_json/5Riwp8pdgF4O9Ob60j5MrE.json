@@ -1,0 +1,72 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6aZmqT6ycUdRsm7fF7ndwH"
+    },
+    "href" : "https://api.spotify.com/v1/artists/6aZmqT6ycUdRsm7fF7ndwH",
+    "id" : "6aZmqT6ycUdRsm7fF7ndwH",
+    "name" : "Jedd Hughes",
+    "type" : "artist",
+    "uri" : "spotify:artist:6aZmqT6ycUdRsm7fF7ndwH"
+  } ],
+  "available_markets" : [ "US" ],
+  "copyrights" : [ {
+    "text" : "(C) 2004 MCA Nashville, a Division of UMG Recordings, Inc.",
+    "type" : "C"
+  }, {
+    "text" : "(P) 2004 MCA Nashville, a Division of UMG Recordings, Inc.",
+    "type" : "P"
+  } ],
+  "external_ids" : {
+    "upc" : "00075021016200"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/5Riwp8pdgF4O9Ob60j5MrE"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/5Riwp8pdgF4O9Ob60j5MrE",
+  "id" : "5Riwp8pdgF4O9Ob60j5MrE",
+  "images" : [ ],
+  "label" : "MCA Nashville",
+  "name" : "High Lonesome",
+  "popularity" : 0,
+  "release_date" : "2004-05-04",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/5Riwp8pdgF4O9Ob60j5MrE/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6aZmqT6ycUdRsm7fF7ndwH"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6aZmqT6ycUdRsm7fF7ndwH",
+        "id" : "6aZmqT6ycUdRsm7fF7ndwH",
+        "name" : "Jedd Hughes",
+        "type" : "artist",
+        "uri" : "spotify:artist:6aZmqT6ycUdRsm7fF7ndwH"
+      } ],
+      "available_markets" : [ "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 219746,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1ZQMAWXQUvVDpelRezbnUk"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1ZQMAWXQUvVDpelRezbnUk",
+      "id" : "1ZQMAWXQUvVDpelRezbnUk",
+      "name" : "High Lonesome",
+      "preview_url" : "https://p.scdn.co/mp3-preview/cf48886e12d0bfa009e959d9485720ae6487d0be?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:1ZQMAWXQUvVDpelRezbnUk"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:5Riwp8pdgF4O9Ob60j5MrE"
+}

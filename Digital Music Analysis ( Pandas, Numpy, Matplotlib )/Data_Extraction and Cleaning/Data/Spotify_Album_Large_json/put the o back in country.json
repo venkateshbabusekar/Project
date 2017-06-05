@@ -1,0 +1,33 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=put+the+o+back+in+country&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0F6yRPhUj9fUzWn0z3ysyr"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0F6yRPhUj9fUzWn0z3ysyr",
+        "id" : "0F6yRPhUj9fUzWn0z3ysyr",
+        "name" : "Shooter Jennings",
+        "type" : "artist",
+        "uri" : "spotify:artist:0F6yRPhUj9fUzWn0z3ysyr"
+      } ],
+      "available_markets" : [ "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1RdMMDoEC4L4DdCRQhjHxN"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1RdMMDoEC4L4DdCRQhjHxN",
+      "id" : "1RdMMDoEC4L4DdCRQhjHxN",
+      "images" : [ ],
+      "name" : "Put The O Back In Country",
+      "type" : "album",
+      "uri" : "spotify:album:1RdMMDoEC4L4DdCRQhjHxN"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

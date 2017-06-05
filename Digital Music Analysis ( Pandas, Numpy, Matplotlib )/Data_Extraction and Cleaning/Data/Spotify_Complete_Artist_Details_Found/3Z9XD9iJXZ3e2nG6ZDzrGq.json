@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/3Z9XD9iJXZ3e2nG6ZDzrGq"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/3Z9XD9iJXZ3e2nG6ZDzrGq",
+  "id" : "3Z9XD9iJXZ3e2nG6ZDzrGq",
+  "images" : [ ],
+  "name" : "Shivil",
+  "popularity" : 0,
+  "type" : "artist",
+  "uri" : "spotify:artist:3Z9XD9iJXZ3e2nG6ZDzrGq"
+}

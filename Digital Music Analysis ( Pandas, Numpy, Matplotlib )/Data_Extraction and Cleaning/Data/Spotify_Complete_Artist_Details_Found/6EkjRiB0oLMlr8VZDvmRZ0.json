@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/6EkjRiB0oLMlr8VZDvmRZ0"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/6EkjRiB0oLMlr8VZDvmRZ0",
+  "id" : "6EkjRiB0oLMlr8VZDvmRZ0",
+  "images" : [ ],
+  "name" : "Genn",
+  "popularity" : 0,
+  "type" : "artist",
+  "uri" : "spotify:artist:6EkjRiB0oLMlr8VZDvmRZ0"
+}

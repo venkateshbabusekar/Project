@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4TshyQDihSYXSWqvclXl3I"
+    },
+    "href" : "https://api.spotify.com/v1/artists/4TshyQDihSYXSWqvclXl3I",
+    "id" : "4TshyQDihSYXSWqvclXl3I",
+    "name" : "Parmalee",
+    "type" : "artist",
+    "uri" : "spotify:artist:4TshyQDihSYXSWqvclXl3I"
+  } ],
+  "available_markets" : [ "CA", "US" ],
+  "copyrights" : [ {
+    "text" : "(P) 2016 Stoney Creek Records",
+    "type" : "P"
+  } ],
+  "external_ids" : {
+    "upc" : "886445846263"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/1O35IWFiARcbrkAhDIQoBR"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/1O35IWFiARcbrkAhDIQoBR",
+  "id" : "1O35IWFiARcbrkAhDIQoBR",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/619d83d3490485c18472f9e6ce8b449367e6f70e",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/27e60a40e352500e96dce03d450e1d5debe9d736",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/ca4439f0f5a42eed883ae8d81ddcb97b0bb0b576",
+    "width" : 64
+  } ],
+  "label" : "Stoney Creek Records",
+  "name" : "Roots",
+  "popularity" : 41,
+  "release_date" : "2016-04-29",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/1O35IWFiARcbrkAhDIQoBR/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4TshyQDihSYXSWqvclXl3I"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4TshyQDihSYXSWqvclXl3I",
+        "id" : "4TshyQDihSYXSWqvclXl3I",
+        "name" : "Parmalee",
+        "type" : "artist",
+        "uri" : "spotify:artist:4TshyQDihSYXSWqvclXl3I"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 182693,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6gVyokYPc0JjvcEF5kBl1r"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6gVyokYPc0JjvcEF5kBl1r",
+      "id" : "6gVyokYPc0JjvcEF5kBl1r",
+      "name" : "Roots",
+      "preview_url" : "https://p.scdn.co/mp3-preview/9ffcfb1d23bda9c19cc95d7398ba56580baad743?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:6gVyokYPc0JjvcEF5kBl1r"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:1O35IWFiARcbrkAhDIQoBR"
+}

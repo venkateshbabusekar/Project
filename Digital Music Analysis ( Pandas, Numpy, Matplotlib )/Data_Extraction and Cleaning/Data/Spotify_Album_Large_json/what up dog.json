@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=what+up+dog&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7Jmod60ZpPG0tckhY0Ls0p"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7Jmod60ZpPG0tckhY0Ls0p",
+        "id" : "7Jmod60ZpPG0tckhY0Ls0p",
+        "name" : "Was (Not Was)",
+        "type" : "artist",
+        "uri" : "spotify:artist:7Jmod60ZpPG0tckhY0Ls0p"
+      } ],
+      "available_markets" : [ "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4IY2WJvEcXzaHfQQoVi2sZ"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4IY2WJvEcXzaHfQQoVi2sZ",
+      "id" : "4IY2WJvEcXzaHfQQoVi2sZ",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/5f7aa5ec5654182b0057393a982d7d3488bd3114",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/4f74e3404c23b61e1783c59bca817958dd2977ad",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/76dc4f46ae593c4e1f1306949fba8b18e951dfdd",
+        "width" : 64
+      } ],
+      "name" : "What Up, Dog?",
+      "type" : "album",
+      "uri" : "spotify:album:4IY2WJvEcXzaHfQQoVi2sZ"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

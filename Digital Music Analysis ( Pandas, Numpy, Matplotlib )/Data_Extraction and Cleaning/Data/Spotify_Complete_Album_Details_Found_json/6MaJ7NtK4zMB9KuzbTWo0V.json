@@ -1,0 +1,84 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/7JsT3TCosrHmqDp0BEU3tO"
+    },
+    "href" : "https://api.spotify.com/v1/artists/7JsT3TCosrHmqDp0BEU3tO",
+    "id" : "7JsT3TCosrHmqDp0BEU3tO",
+    "name" : "DJ Rupp",
+    "type" : "artist",
+    "uri" : "spotify:artist:7JsT3TCosrHmqDp0BEU3tO"
+  } ],
+  "available_markets" : [ ],
+  "copyrights" : [ {
+    "text" : "2016 Freshlee Records",
+    "type" : "C"
+  }, {
+    "text" : "2016 Freshlee Records",
+    "type" : "P"
+  } ],
+  "external_ids" : {
+    "upc" : "641676839688"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/6MaJ7NtK4zMB9KuzbTWo0V"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/6MaJ7NtK4zMB9KuzbTWo0V",
+  "id" : "6MaJ7NtK4zMB9KuzbTWo0V",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/20d8369a523e6b841ed7602c5472cf54a30179d6",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/395b9a5f260e69463d981e3cacfcb28b782ecad1",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/ff7e3a7e3d084d8675ce3d576de2890451028e04",
+    "width" : 64
+  } ],
+  "label" : "Freshlee Records",
+  "name" : "Gorgeous",
+  "popularity" : 15,
+  "release_date" : "2016-06-09",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/6MaJ7NtK4zMB9KuzbTWo0V/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7JsT3TCosrHmqDp0BEU3tO"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7JsT3TCosrHmqDp0BEU3tO",
+        "id" : "7JsT3TCosrHmqDp0BEU3tO",
+        "name" : "DJ Rupp",
+        "type" : "artist",
+        "uri" : "spotify:artist:7JsT3TCosrHmqDp0BEU3tO"
+      } ],
+      "available_markets" : [ ],
+      "disc_number" : 1,
+      "duration_ms" : 181846,
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1r1M5V1bIfaK8SXjp9BC7K"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1r1M5V1bIfaK8SXjp9BC7K",
+      "id" : "1r1M5V1bIfaK8SXjp9BC7K",
+      "name" : "Gorgeous",
+      "preview_url" : null,
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:1r1M5V1bIfaK8SXjp9BC7K"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:6MaJ7NtK4zMB9KuzbTWo0V"
+}

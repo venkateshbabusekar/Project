@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/1rliynNcoHaBwR3tjhXT3m"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 7
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/1rliynNcoHaBwR3tjhXT3m",
+  "id" : "1rliynNcoHaBwR3tjhXT3m",
+  "images" : [ ],
+  "name" : "Shigaki",
+  "popularity" : 4,
+  "type" : "artist",
+  "uri" : "spotify:artist:1rliynNcoHaBwR3tjhXT3m"
+}

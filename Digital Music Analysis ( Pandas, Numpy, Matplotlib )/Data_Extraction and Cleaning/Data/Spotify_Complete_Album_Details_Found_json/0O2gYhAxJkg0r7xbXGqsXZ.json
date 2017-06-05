@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/7omzannyG2lfDqP5xyZo34"
+    },
+    "href" : "https://api.spotify.com/v1/artists/7omzannyG2lfDqP5xyZo34",
+    "id" : "7omzannyG2lfDqP5xyZo34",
+    "name" : "Joshua Radin",
+    "type" : "artist",
+    "uri" : "spotify:artist:7omzannyG2lfDqP5xyZo34"
+  } ],
+  "available_markets" : [ "CA", "US" ],
+  "copyrights" : [ {
+    "text" : "(C) 2008 mom & pop",
+    "type" : "C"
+  } ],
+  "external_ids" : {
+    "upc" : "886444974936"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/0O2gYhAxJkg0r7xbXGqsXZ"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/0O2gYhAxJkg0r7xbXGqsXZ",
+  "id" : "0O2gYhAxJkg0r7xbXGqsXZ",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/1a7c3d3e6feeb1cefc0d59cc22a3dd2de6af99c3",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/3b9209355aa76844a9cca5690d44dd57936be331",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/f9fc9e0fe56f3a2e05f8066e770897c865450c38",
+    "width" : 64
+  } ],
+  "label" : "Mom & Pop Music",
+  "name" : "Brand New Day",
+  "popularity" : 11,
+  "release_date" : "2008",
+  "release_date_precision" : "year",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/0O2gYhAxJkg0r7xbXGqsXZ/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7omzannyG2lfDqP5xyZo34"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7omzannyG2lfDqP5xyZo34",
+        "id" : "7omzannyG2lfDqP5xyZo34",
+        "name" : "Joshua Radin",
+        "type" : "artist",
+        "uri" : "spotify:artist:7omzannyG2lfDqP5xyZo34"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 211640,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5qes6ZYMQKS9QGUYVhytvI"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5qes6ZYMQKS9QGUYVhytvI",
+      "id" : "5qes6ZYMQKS9QGUYVhytvI",
+      "name" : "Brand New Day",
+      "preview_url" : "https://p.scdn.co/mp3-preview/137ba0a82c3e5abb0f320e32fa0d8af2164fa392?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:5qes6ZYMQKS9QGUYVhytvI"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:0O2gYhAxJkg0r7xbXGqsXZ"
+}

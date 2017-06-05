@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=deadsexy&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/65eQhzkzKZaGZGi5WmKkTM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/65eQhzkzKZaGZGi5WmKkTM",
+        "id" : "65eQhzkzKZaGZGi5WmKkTM",
+        "name" : "Scarce",
+        "type" : "artist",
+        "uri" : "spotify:artist:65eQhzkzKZaGZGi5WmKkTM"
+      } ],
+      "available_markets" : [ "MX", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6OYqIms91BpDQGFQCLOyjq"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6OYqIms91BpDQGFQCLOyjq",
+      "id" : "6OYqIms91BpDQGFQCLOyjq",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/8f02f10aba9855280d01e7fbb6617e597f99afb6",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/76ad0f6c9109d2aecc9e4a88bf257418eeb5f214",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ed798fff9ea1bae5a3688f652f256da2ab50ca85",
+        "width" : 64
+      } ],
+      "name" : "Deadsexy",
+      "type" : "album",
+      "uri" : "spotify:album:6OYqIms91BpDQGFQCLOyjq"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

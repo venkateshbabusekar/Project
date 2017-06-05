@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/2Tm1FEB8IjMgJqH4xBhRRx"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/2Tm1FEB8IjMgJqH4xBhRRx",
+  "id" : "2Tm1FEB8IjMgJqH4xBhRRx",
+  "images" : [ ],
+  "name" : "Scoupe",
+  "popularity" : 0,
+  "type" : "artist",
+  "uri" : "spotify:artist:2Tm1FEB8IjMgJqH4xBhRRx"
+}

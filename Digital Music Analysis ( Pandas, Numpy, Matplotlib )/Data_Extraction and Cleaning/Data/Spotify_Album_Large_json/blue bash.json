@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=blue+bash&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1sdyFmN4bVOcuFDpTVsxBB"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1sdyFmN4bVOcuFDpTVsxBB",
+        "id" : "1sdyFmN4bVOcuFDpTVsxBB",
+        "name" : "Kenny Burrell",
+        "type" : "artist",
+        "uri" : "spotify:artist:1sdyFmN4bVOcuFDpTVsxBB"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2SOEQjtX9aeZJTxpqdwYJm"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2SOEQjtX9aeZJTxpqdwYJm",
+      "id" : "2SOEQjtX9aeZJTxpqdwYJm",
+      "images" : [ {
+        "height" : 575,
+        "url" : "https://i.scdn.co/image/8ec2411119c94e7b7b51c11ff0e1adc9a44f487b",
+        "width" : 640
+      }, {
+        "height" : 269,
+        "url" : "https://i.scdn.co/image/1ca329b2c09154023e263d84b966fec51bbcf58b",
+        "width" : 300
+      }, {
+        "height" : 57,
+        "url" : "https://i.scdn.co/image/40c556671ce6a62102b68f77b900af4992a57dae",
+        "width" : 63
+      } ],
+      "name" : "Blue Bash",
+      "type" : "album",
+      "uri" : "spotify:album:2SOEQjtX9aeZJTxpqdwYJm"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=apartment+life&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2TpNrO0G2ahji2IOR94TLA"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2TpNrO0G2ahji2IOR94TLA",
+        "id" : "2TpNrO0G2ahji2IOR94TLA",
+        "name" : "ivy",
+        "type" : "artist",
+        "uri" : "spotify:artist:2TpNrO0G2ahji2IOR94TLA"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3IAnyRKgUkMgepTx3K2fpn"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3IAnyRKgUkMgepTx3K2fpn",
+      "id" : "3IAnyRKgUkMgepTx3K2fpn",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/1f12b0f469f051cc346ebd4543dd4944c131d96e",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/eb2f3b9703883dc1a00a56a860662c2cd4c82ad8",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/4a69d3081a7ca314bb51bb05f87f36d608696543",
+        "width" : 64
+      } ],
+      "name" : "Apartment Life",
+      "type" : "album",
+      "uri" : "spotify:album:3IAnyRKgUkMgepTx3K2fpn"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

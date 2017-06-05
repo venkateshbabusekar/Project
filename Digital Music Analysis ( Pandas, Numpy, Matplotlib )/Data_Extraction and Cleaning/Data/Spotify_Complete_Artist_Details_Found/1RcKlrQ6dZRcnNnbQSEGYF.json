@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/1RcKlrQ6dZRcnNnbQSEGYF"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 4
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/1RcKlrQ6dZRcnNnbQSEGYF",
+  "id" : "1RcKlrQ6dZRcnNnbQSEGYF",
+  "images" : [ ],
+  "name" : "Seijas",
+  "popularity" : 0,
+  "type" : "artist",
+  "uri" : "spotify:artist:1RcKlrQ6dZRcnNnbQSEGYF"
+}

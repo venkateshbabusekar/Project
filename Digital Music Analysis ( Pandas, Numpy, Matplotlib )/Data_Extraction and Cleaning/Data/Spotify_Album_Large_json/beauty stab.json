@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=beauty+stab&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2s79xe5F6eUQkjwjww27Fh"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2s79xe5F6eUQkjwjww27Fh",
+        "id" : "2s79xe5F6eUQkjwjww27Fh",
+        "name" : "ABC",
+        "type" : "artist",
+        "uri" : "spotify:artist:2s79xe5F6eUQkjwjww27Fh"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3dP4oUnBVhc8od7R9PbqHk"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3dP4oUnBVhc8od7R9PbqHk",
+      "id" : "3dP4oUnBVhc8od7R9PbqHk",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/8d867630820066da25eb9e433cfbf5e5f259cc94",
+        "width" : 639
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/7bd73ad5d883086ec484189e7fa37b026baa87be",
+        "width" : 299
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/7273982ab0d25339c17e43707bb319b8b07e7606",
+        "width" : 64
+      } ],
+      "name" : "Beauty Stab",
+      "type" : "album",
+      "uri" : "spotify:album:3dP4oUnBVhc8od7R9PbqHk"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

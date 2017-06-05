@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=becoming+x&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1EJWNhiYbOyeUHbsS7Kp1P"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1EJWNhiYbOyeUHbsS7Kp1P",
+        "id" : "1EJWNhiYbOyeUHbsS7Kp1P",
+        "name" : "Sneaker Pimps",
+        "type" : "artist",
+        "uri" : "spotify:artist:1EJWNhiYbOyeUHbsS7Kp1P"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/5rIeCrPMORlt7o36fFSGm4"
+      },
+      "href" : "https://api.spotify.com/v1/albums/5rIeCrPMORlt7o36fFSGm4",
+      "id" : "5rIeCrPMORlt7o36fFSGm4",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/bdcabf290c25d09a18863228d43879f8f0b592b3",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/5f40e9d8b516c0d8c5225b9e47a608ad5c59ea1c",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/8bcc56e0570fc1f31ffdcd002ce9e289e11740fa",
+        "width" : 64
+      } ],
+      "name" : "Becoming X",
+      "type" : "album",
+      "uri" : "spotify:album:5rIeCrPMORlt7o36fFSGm4"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

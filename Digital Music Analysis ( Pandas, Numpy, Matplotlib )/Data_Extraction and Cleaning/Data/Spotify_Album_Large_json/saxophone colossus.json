@@ -1,0 +1,41 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=saxophone+colossus&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+        "id" : "1VEzN9lxvG6KPR3QQGsebR",
+        "name" : "Sonny Rollins",
+        "type" : "artist",
+        "uri" : "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2dtjLAwt7Cq763h6AupyPZ"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2dtjLAwt7Cq763h6AupyPZ",
+      "id" : "2dtjLAwt7Cq763h6AupyPZ",
+      "images" : [ {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/8aa4beda844eb761ed6acce7c6a00fdf26d4986e",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/768dc95325b14627edb7913031e341f87b29d8b6",
+        "width" : 64
+      } ],
+      "name" : "Saxophone Colossus (Remastered)",
+      "type" : "album",
+      "uri" : "spotify:album:2dtjLAwt7Cq763h6AupyPZ"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

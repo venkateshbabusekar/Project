@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/7eef4VaOyyPf9g8925LVop"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 1
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/7eef4VaOyyPf9g8925LVop",
+  "id" : "7eef4VaOyyPf9g8925LVop",
+  "images" : [ ],
+  "name" : "Que'T",
+  "popularity" : 0,
+  "type" : "artist",
+  "uri" : "spotify:artist:7eef4VaOyyPf9g8925LVop"
+}

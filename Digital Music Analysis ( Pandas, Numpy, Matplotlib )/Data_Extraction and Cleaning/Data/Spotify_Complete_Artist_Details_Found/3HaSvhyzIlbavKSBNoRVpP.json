@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/3HaSvhyzIlbavKSBNoRVpP"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 6
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/3HaSvhyzIlbavKSBNoRVpP",
+  "id" : "3HaSvhyzIlbavKSBNoRVpP",
+  "images" : [ ],
+  "name" : "Ginjet",
+  "popularity" : 17,
+  "type" : "artist",
+  "uri" : "spotify:artist:3HaSvhyzIlbavKSBNoRVpP"
+}

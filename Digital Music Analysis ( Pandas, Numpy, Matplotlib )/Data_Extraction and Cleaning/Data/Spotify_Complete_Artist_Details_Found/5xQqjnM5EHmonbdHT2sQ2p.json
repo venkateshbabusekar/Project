@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/5xQqjnM5EHmonbdHT2sQ2p"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/5xQqjnM5EHmonbdHT2sQ2p",
+  "id" : "5xQqjnM5EHmonbdHT2sQ2p",
+  "images" : [ ],
+  "name" : "IDKW",
+  "popularity" : 3,
+  "type" : "artist",
+  "uri" : "spotify:artist:5xQqjnM5EHmonbdHT2sQ2p"
+}

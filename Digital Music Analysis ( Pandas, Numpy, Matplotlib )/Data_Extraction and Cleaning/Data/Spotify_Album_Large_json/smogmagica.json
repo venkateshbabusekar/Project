@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=smogmagica&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/45Utoxop3UFq0Qg9YFLhx0"
+        },
+        "href" : "https://api.spotify.com/v1/artists/45Utoxop3UFq0Qg9YFLhx0",
+        "id" : "45Utoxop3UFq0Qg9YFLhx0",
+        "name" : "Le Orme",
+        "type" : "artist",
+        "uri" : "spotify:artist:45Utoxop3UFq0Qg9YFLhx0"
+      } ],
+      "available_markets" : [ "MX", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/7vDdyzWZYngIZY2vV3yZ3A"
+      },
+      "href" : "https://api.spotify.com/v1/albums/7vDdyzWZYngIZY2vV3yZ3A",
+      "id" : "7vDdyzWZYngIZY2vV3yZ3A",
+      "images" : [ {
+        "height" : 635,
+        "url" : "https://i.scdn.co/image/82fb8cbc26131b9dcc6b01545ee5d029dd69515b",
+        "width" : 640
+      }, {
+        "height" : 297,
+        "url" : "https://i.scdn.co/image/15db0efe6b4cef88935b1b290a0412d634be3814",
+        "width" : 300
+      }, {
+        "height" : 63,
+        "url" : "https://i.scdn.co/image/e36638a9e75dcba8f016bd50c452dd41c340f1bd",
+        "width" : 64
+      } ],
+      "name" : "Smogmagica",
+      "type" : "album",
+      "uri" : "spotify:album:7vDdyzWZYngIZY2vV3yZ3A"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

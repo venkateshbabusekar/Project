@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=junkfuel&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0VEpCzYzOvnpy73LcPu3po"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0VEpCzYzOvnpy73LcPu3po",
+        "id" : "0VEpCzYzOvnpy73LcPu3po",
+        "name" : "Fretblanket",
+        "type" : "artist",
+        "uri" : "spotify:artist:0VEpCzYzOvnpy73LcPu3po"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/5KHo7z6wvGtWTaStzvuxsl"
+      },
+      "href" : "https://api.spotify.com/v1/albums/5KHo7z6wvGtWTaStzvuxsl",
+      "id" : "5KHo7z6wvGtWTaStzvuxsl",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/f9063476ed51087682407e01dce87c630fed7e5c",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/4bd4b122fab2debf9fbbaf48f870f366b1572ce6",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/deb42e7b82c135121168d18faa32045b6ced885c",
+        "width" : 64
+      } ],
+      "name" : "Junkfuel",
+      "type" : "album",
+      "uri" : "spotify:album:5KHo7z6wvGtWTaStzvuxsl"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

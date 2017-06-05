@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=pshychic&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/66UBlnqgUCqDlalQXK8Nby"
+        },
+        "href" : "https://api.spotify.com/v1/artists/66UBlnqgUCqDlalQXK8Nby",
+        "id" : "66UBlnqgUCqDlalQXK8Nby",
+        "name" : "Buffalo Daughter",
+        "type" : "artist",
+        "uri" : "spotify:artist:66UBlnqgUCqDlalQXK8Nby"
+      } ],
+      "available_markets" : [ "MX", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2LbaSAxGEY36MEDEHnX89I"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2LbaSAxGEY36MEDEHnX89I",
+      "id" : "2LbaSAxGEY36MEDEHnX89I",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/15cf359791860ba9c2dbced49c6502c6dc21109a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/9def921a6b87b8e0e9f2dcacd0a6ce96d0405103",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/69c8624e6efb483237ebb930cec57f142429d52e",
+        "width" : 64
+      } ],
+      "name" : "Pshychic",
+      "type" : "album",
+      "uri" : "spotify:album:2LbaSAxGEY36MEDEHnX89I"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

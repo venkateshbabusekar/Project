@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/60eT7q88iLWKnuSXed1AGr"
+    },
+    "href" : "https://api.spotify.com/v1/artists/60eT7q88iLWKnuSXed1AGr",
+    "id" : "60eT7q88iLWKnuSXed1AGr",
+    "name" : "Architecture In Helsinki",
+    "type" : "artist",
+    "uri" : "spotify:artist:60eT7q88iLWKnuSXed1AGr"
+  } ],
+  "available_markets" : [ "CA", "US" ],
+  "copyrights" : [ {
+    "text" : "(C) 2011 [PIAS] Cooperative",
+    "type" : "C"
+  } ],
+  "external_ids" : {
+    "upc" : "843798003002"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/5WdWfuOoqwp73PfJQ8C9XN"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/5WdWfuOoqwp73PfJQ8C9XN",
+  "id" : "5WdWfuOoqwp73PfJQ8C9XN",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/fe6af1e682abf1222783d344ffac4abfa4813dbf",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/704f518ea9a0050c39823aac2bd9b9fffbc38ec8",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/c4eb038ecfc465bfc141dee30d952bc0fa168217",
+    "width" : 64
+  } ],
+  "label" : "PIAS America",
+  "name" : "Contact High",
+  "popularity" : 0,
+  "release_date" : "2011",
+  "release_date_precision" : "year",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/5WdWfuOoqwp73PfJQ8C9XN/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/60eT7q88iLWKnuSXed1AGr"
+        },
+        "href" : "https://api.spotify.com/v1/artists/60eT7q88iLWKnuSXed1AGr",
+        "id" : "60eT7q88iLWKnuSXed1AGr",
+        "name" : "Architecture In Helsinki",
+        "type" : "artist",
+        "uri" : "spotify:artist:60eT7q88iLWKnuSXed1AGr"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 220093,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1Uez2OH4AKhstpDsLtqu4h"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1Uez2OH4AKhstpDsLtqu4h",
+      "id" : "1Uez2OH4AKhstpDsLtqu4h",
+      "name" : "Contact High",
+      "preview_url" : "https://p.scdn.co/mp3-preview/22873c157646ab83585e3d7be3a5b76dac5b4fed?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:1Uez2OH4AKhstpDsLtqu4h"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:5WdWfuOoqwp73PfJQ8C9XN"
+}

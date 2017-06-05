@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/74M6cwQj7dd0Lup1RRJoL2"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/74M6cwQj7dd0Lup1RRJoL2",
+  "id" : "74M6cwQj7dd0Lup1RRJoL2",
+  "images" : [ ],
+  "name" : "iRuin",
+  "popularity" : 0,
+  "type" : "artist",
+  "uri" : "spotify:artist:74M6cwQj7dd0Lup1RRJoL2"
+}

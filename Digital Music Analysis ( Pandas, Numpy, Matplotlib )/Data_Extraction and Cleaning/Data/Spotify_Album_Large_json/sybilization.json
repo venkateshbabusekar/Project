@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=sybilization&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1EbIfIjVcauDatNO4vagL1"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1EbIfIjVcauDatNO4vagL1",
+        "id" : "1EbIfIjVcauDatNO4vagL1",
+        "name" : "Sybil",
+        "type" : "artist",
+        "uri" : "spotify:artist:1EbIfIjVcauDatNO4vagL1"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0ECmHxcItadWtltuDlQGY1"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0ECmHxcItadWtltuDlQGY1",
+      "id" : "0ECmHxcItadWtltuDlQGY1",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/dc3913fb4058bc26611c4413920267d6016b8837",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/b0fe166e243646456529172c8431a63a4878adf2",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/8deab1c67e10bcf7b20f86ff1e4de0582119fafe",
+        "width" : 64
+      } ],
+      "name" : "Sybilization",
+      "type" : "album",
+      "uri" : "spotify:album:0ECmHxcItadWtltuDlQGY1"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

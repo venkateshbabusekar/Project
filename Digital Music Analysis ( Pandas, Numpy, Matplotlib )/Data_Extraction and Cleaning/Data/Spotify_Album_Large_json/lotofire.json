@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=lotofire&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1ne2c2YEgt4MmJCJGCsfsZ"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1ne2c2YEgt4MmJCJGCsfsZ",
+        "id" : "1ne2c2YEgt4MmJCJGCsfsZ",
+        "name" : "Ely Guerra",
+        "type" : "artist",
+        "uri" : "spotify:artist:1ne2c2YEgt4MmJCJGCsfsZ"
+      } ],
+      "available_markets" : [ "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0uK4PqU3bm9zdpHC2RdAdq"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0uK4PqU3bm9zdpHC2RdAdq",
+      "id" : "0uK4PqU3bm9zdpHC2RdAdq",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/f079942d69a2863ae392e77c4a958fc534434035",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/b0f3dab0d82a4de1fbea10785ef0fe709ef784e1",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/d11e21758b11bb25c5b2825dc223d7cb83954ed6",
+        "width" : 64
+      } ],
+      "name" : "Lotofire",
+      "type" : "album",
+      "uri" : "spotify:album:0uK4PqU3bm9zdpHC2RdAdq"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

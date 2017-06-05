@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/1N5xY56zQCfuPbB09kI2Vk"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/1N5xY56zQCfuPbB09kI2Vk",
+  "id" : "1N5xY56zQCfuPbB09kI2Vk",
+  "images" : [ ],
+  "name" : "Hiry",
+  "popularity" : 0,
+  "type" : "artist",
+  "uri" : "spotify:artist:1N5xY56zQCfuPbB09kI2Vk"
+}

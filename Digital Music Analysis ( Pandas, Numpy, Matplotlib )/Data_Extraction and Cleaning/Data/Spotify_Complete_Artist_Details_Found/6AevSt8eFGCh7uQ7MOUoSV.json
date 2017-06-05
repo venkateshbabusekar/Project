@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/6AevSt8eFGCh7uQ7MOUoSV"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 19
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/6AevSt8eFGCh7uQ7MOUoSV",
+  "id" : "6AevSt8eFGCh7uQ7MOUoSV",
+  "images" : [ ],
+  "name" : "JESPR",
+  "popularity" : 5,
+  "type" : "artist",
+  "uri" : "spotify:artist:6AevSt8eFGCh7uQ7MOUoSV"
+}

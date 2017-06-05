@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1SZMaiNHfdUuU0qZKZ6y62"
+    },
+    "href" : "https://api.spotify.com/v1/artists/1SZMaiNHfdUuU0qZKZ6y62",
+    "id" : "1SZMaiNHfdUuU0qZKZ6y62",
+    "name" : "Newsboys",
+    "type" : "artist",
+    "uri" : "spotify:artist:1SZMaiNHfdUuU0qZKZ6y62"
+  } ],
+  "available_markets" : [ "US" ],
+  "copyrights" : [ {
+    "text" : "(P) 2015 Newsboys Inc.",
+    "type" : "P"
+  } ],
+  "external_ids" : {
+    "upc" : "886445489057"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/4nWqun84xSzzrQFu6taVO0"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/4nWqun84xSzzrQFu6taVO0",
+  "id" : "4nWqun84xSzzrQFu6taVO0",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/3c89cc5489c64c18758c6fb398e558bf0683c295",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/d7b00626ef71944f45cabe6543fe734df08e9404",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/5e1889773b4884bacab5c90318aa0713863e8c82",
+    "width" : 64
+  } ],
+  "label" : "Fair Trade/Columbia",
+  "name" : "Guilty",
+  "popularity" : 38,
+  "release_date" : "2015-09-25",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/4nWqun84xSzzrQFu6taVO0/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1SZMaiNHfdUuU0qZKZ6y62"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1SZMaiNHfdUuU0qZKZ6y62",
+        "id" : "1SZMaiNHfdUuU0qZKZ6y62",
+        "name" : "Newsboys",
+        "type" : "artist",
+        "uri" : "spotify:artist:1SZMaiNHfdUuU0qZKZ6y62"
+      } ],
+      "available_markets" : [ "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 219412,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6GZDlgmOnAqHqVHVCJ7HnT"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6GZDlgmOnAqHqVHVCJ7HnT",
+      "id" : "6GZDlgmOnAqHqVHVCJ7HnT",
+      "name" : "Guilty",
+      "preview_url" : "https://p.scdn.co/mp3-preview/94e9f862c462f6bd9de5f92702e979fde00b28ed?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:6GZDlgmOnAqHqVHVCJ7HnT"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:4nWqun84xSzzrQFu6taVO0"
+}

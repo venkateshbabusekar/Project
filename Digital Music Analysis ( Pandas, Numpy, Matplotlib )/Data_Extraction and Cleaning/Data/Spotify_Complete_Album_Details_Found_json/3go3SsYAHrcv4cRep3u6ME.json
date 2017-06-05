@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6qO6LhD6FuXK5e2PtfAIMz"
+    },
+    "href" : "https://api.spotify.com/v1/artists/6qO6LhD6FuXK5e2PtfAIMz",
+    "id" : "6qO6LhD6FuXK5e2PtfAIMz",
+    "name" : "We Came As Romans",
+    "type" : "artist",
+    "uri" : "spotify:artist:6qO6LhD6FuXK5e2PtfAIMz"
+  } ],
+  "available_markets" : [ "CA", "US" ],
+  "copyrights" : [ {
+    "text" : "(C) 2015 Equal Vision Records, Inc.",
+    "type" : "C"
+  } ],
+  "external_ids" : {
+    "upc" : "886445245974"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/3go3SsYAHrcv4cRep3u6ME"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/3go3SsYAHrcv4cRep3u6ME",
+  "id" : "3go3SsYAHrcv4cRep3u6ME",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/649f24f97a8c3f7e6687a332e2641d07785ec99e",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/150e3adfa3f42663c7c4083031aa2245be382c1f",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/a7a2384c3b2cd6b626a4686c55d0e81990e6faaf",
+    "width" : 64
+  } ],
+  "label" : "Equal Vision Records",
+  "name" : "Tear It Down",
+  "popularity" : 22,
+  "release_date" : "2015-07-10",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/3go3SsYAHrcv4cRep3u6ME/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6qO6LhD6FuXK5e2PtfAIMz"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6qO6LhD6FuXK5e2PtfAIMz",
+        "id" : "6qO6LhD6FuXK5e2PtfAIMz",
+        "name" : "We Came As Romans",
+        "type" : "artist",
+        "uri" : "spotify:artist:6qO6LhD6FuXK5e2PtfAIMz"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 203373,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0jwrzmmuTi8BVcikvvKmgk"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0jwrzmmuTi8BVcikvvKmgk",
+      "id" : "0jwrzmmuTi8BVcikvvKmgk",
+      "name" : "Tear It Down",
+      "preview_url" : "https://p.scdn.co/mp3-preview/1eede09053c9814fe0f0f4f15e03e7a68a9f659c?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:0jwrzmmuTi8BVcikvvKmgk"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:3go3SsYAHrcv4cRep3u6ME"
+}

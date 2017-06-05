@@ -1,0 +1,84 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1J9Z9bhqkgyqseEi85cbyx"
+    },
+    "href" : "https://api.spotify.com/v1/artists/1J9Z9bhqkgyqseEi85cbyx",
+    "id" : "1J9Z9bhqkgyqseEi85cbyx",
+    "name" : "Mutemath",
+    "type" : "artist",
+    "uri" : "spotify:artist:1J9Z9bhqkgyqseEi85cbyx"
+  } ],
+  "available_markets" : [ "CA", "US" ],
+  "copyrights" : [ {
+    "text" : "(C) 2016 Wojtek",
+    "type" : "C"
+  }, {
+    "text" : "(P) 2016 Wojtek",
+    "type" : "P"
+  } ],
+  "external_ids" : {
+    "upc" : "00089902805814"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/1wWqtW9tzl2KSBf0yUKHYo"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/1wWqtW9tzl2KSBf0yUKHYo",
+  "id" : "1wWqtW9tzl2KSBf0yUKHYo",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/cdec94e7981a53933447522bc4c3c772ea290e1e",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/7bff02c411ee9188bb152528cf5a3643a9a2cc83",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/7faadfbd7f9ae2ff3d490c7943f36ddcae4b55ff",
+    "width" : 64
+  } ],
+  "label" : "Wojtek",
+  "name" : "Changes",
+  "popularity" : 37,
+  "release_date" : "2016-09-02",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/1wWqtW9tzl2KSBf0yUKHYo/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1J9Z9bhqkgyqseEi85cbyx"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1J9Z9bhqkgyqseEi85cbyx",
+        "id" : "1J9Z9bhqkgyqseEi85cbyx",
+        "name" : "Mutemath",
+        "type" : "artist",
+        "uri" : "spotify:artist:1J9Z9bhqkgyqseEi85cbyx"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 234800,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1URh8AKuFJMkOZPH81hU95"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1URh8AKuFJMkOZPH81hU95",
+      "id" : "1URh8AKuFJMkOZPH81hU95",
+      "name" : "Changes",
+      "preview_url" : "https://p.scdn.co/mp3-preview/ea0c419bc390d6c963154b1d3cba1a2fa361f26a?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:1URh8AKuFJMkOZPH81hU95"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:1wWqtW9tzl2KSBf0yUKHYo"
+}

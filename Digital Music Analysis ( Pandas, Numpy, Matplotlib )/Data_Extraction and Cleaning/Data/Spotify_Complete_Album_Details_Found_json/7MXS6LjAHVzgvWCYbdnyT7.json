@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/28DnGfYVa3y8N6PhN2pNDH"
+    },
+    "href" : "https://api.spotify.com/v1/artists/28DnGfYVa3y8N6PhN2pNDH",
+    "id" : "28DnGfYVa3y8N6PhN2pNDH",
+    "name" : "Caitlin & Will",
+    "type" : "artist",
+    "uri" : "spotify:artist:28DnGfYVa3y8N6PhN2pNDH"
+  } ],
+  "available_markets" : [ "US" ],
+  "copyrights" : [ {
+    "text" : "(P) 2008 Sony Music Entertainment",
+    "type" : "P"
+  } ],
+  "external_ids" : {
+    "upc" : "888880597557"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/7MXS6LjAHVzgvWCYbdnyT7"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/7MXS6LjAHVzgvWCYbdnyT7",
+  "id" : "7MXS6LjAHVzgvWCYbdnyT7",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/aa95f1b8e59f4c62fda361818b6789d68864828a",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/f8f22790319aea15a2626ea3471bf98fd1f332c2",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/d83cd035085fa6c1da36c691c4dd399c5f4050c7",
+    "width" : 64
+  } ],
+  "label" : "BNA Records Label",
+  "name" : "Even Now",
+  "popularity" : 1,
+  "release_date" : "2008-06-17",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/7MXS6LjAHVzgvWCYbdnyT7/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/28DnGfYVa3y8N6PhN2pNDH"
+        },
+        "href" : "https://api.spotify.com/v1/artists/28DnGfYVa3y8N6PhN2pNDH",
+        "id" : "28DnGfYVa3y8N6PhN2pNDH",
+        "name" : "Caitlin & Will",
+        "type" : "artist",
+        "uri" : "spotify:artist:28DnGfYVa3y8N6PhN2pNDH"
+      } ],
+      "available_markets" : [ "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 219720,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/26Jg2JrE3nxNZDNCj12Sa8"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/26Jg2JrE3nxNZDNCj12Sa8",
+      "id" : "26Jg2JrE3nxNZDNCj12Sa8",
+      "name" : "Even Now",
+      "preview_url" : "https://p.scdn.co/mp3-preview/e65d77d629ec8ad8e88ad640296404ebc01f7859?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:26Jg2JrE3nxNZDNCj12Sa8"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:7MXS6LjAHVzgvWCYbdnyT7"
+}

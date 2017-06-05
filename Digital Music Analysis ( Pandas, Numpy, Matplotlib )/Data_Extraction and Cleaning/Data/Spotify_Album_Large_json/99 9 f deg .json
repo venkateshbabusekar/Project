@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=99.9+f&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3X0tJzVYoWlfjLYI0Ridsw"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3X0tJzVYoWlfjLYI0Ridsw",
+        "id" : "3X0tJzVYoWlfjLYI0Ridsw",
+        "name" : "Suzanne Vega",
+        "type" : "artist",
+        "uri" : "spotify:artist:3X0tJzVYoWlfjLYI0Ridsw"
+      } ],
+      "available_markets" : [ "CA", "MX", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/03EEf4WnO2irH5NQvuY4Ul"
+      },
+      "href" : "https://api.spotify.com/v1/albums/03EEf4WnO2irH5NQvuY4Ul",
+      "id" : "03EEf4WnO2irH5NQvuY4Ul",
+      "images" : [ {
+        "height" : 637,
+        "url" : "https://i.scdn.co/image/285090d2f81abb31bc963ddf477ccacfc072ed1d",
+        "width" : 640
+      }, {
+        "height" : 299,
+        "url" : "https://i.scdn.co/image/e381193d19f717731f691dbaece9e12bec4801c4",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/151f7af96c79945faf56ede595bd58961397c955",
+        "width" : 64
+      } ],
+      "name" : "99.9 F",
+      "type" : "album",
+      "uri" : "spotify:album:03EEf4WnO2irH5NQvuY4Ul"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4wIdxySSxqlIirsqE0JKx8"
+    },
+    "href" : "https://api.spotify.com/v1/artists/4wIdxySSxqlIirsqE0JKx8",
+    "id" : "4wIdxySSxqlIirsqE0JKx8",
+    "name" : "Adam Torres",
+    "type" : "artist",
+    "uri" : "spotify:artist:4wIdxySSxqlIirsqE0JKx8"
+  } ],
+  "available_markets" : [ "CA", "MX", "US" ],
+  "copyrights" : [ {
+    "text" : "(C) 2016 Fat Possum Records",
+    "type" : "C"
+  } ],
+  "external_ids" : {
+    "upc" : "886445947090"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/5JTPpcFBWwuoGGiSLJlZu5"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/5JTPpcFBWwuoGGiSLJlZu5",
+  "id" : "5JTPpcFBWwuoGGiSLJlZu5",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/aaf3f48f7b2fe5a17b079bf4e02e7fa6ba7d9a3d",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/3dc0eb4a63e773f720e261de84d08874a4eaaef4",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/7e75726ed4637fd4294f86b48aadc233cac5a5aa",
+    "width" : 64
+  } ],
+  "label" : "Fat Possum",
+  "name" : "High Lonesome",
+  "popularity" : 18,
+  "release_date" : "2016-06-07",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/5JTPpcFBWwuoGGiSLJlZu5/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4wIdxySSxqlIirsqE0JKx8"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4wIdxySSxqlIirsqE0JKx8",
+        "id" : "4wIdxySSxqlIirsqE0JKx8",
+        "name" : "Adam Torres",
+        "type" : "artist",
+        "uri" : "spotify:artist:4wIdxySSxqlIirsqE0JKx8"
+      } ],
+      "available_markets" : [ "CA", "MX", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 242546,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/57MYkW62y691LpIMBq8ywj"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/57MYkW62y691LpIMBq8ywj",
+      "id" : "57MYkW62y691LpIMBq8ywj",
+      "name" : "High Lonesome",
+      "preview_url" : "https://p.scdn.co/mp3-preview/3b71b7a3d1c7d66400620f1e75a91e99f22d1113?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:57MYkW62y691LpIMBq8ywj"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:5JTPpcFBWwuoGGiSLJlZu5"
+}

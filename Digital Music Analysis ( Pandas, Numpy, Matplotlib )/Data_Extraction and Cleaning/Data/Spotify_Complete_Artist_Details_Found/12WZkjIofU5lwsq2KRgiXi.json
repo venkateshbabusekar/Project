@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/12WZkjIofU5lwsq2KRgiXi"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/12WZkjIofU5lwsq2KRgiXi",
+  "id" : "12WZkjIofU5lwsq2KRgiXi",
+  "images" : [ ],
+  "name" : "Ofay",
+  "popularity" : 0,
+  "type" : "artist",
+  "uri" : "spotify:artist:12WZkjIofU5lwsq2KRgiXi"
+}

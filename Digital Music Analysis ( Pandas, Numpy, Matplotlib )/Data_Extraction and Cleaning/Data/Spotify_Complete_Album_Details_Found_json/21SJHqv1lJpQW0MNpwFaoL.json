@@ -1,0 +1,84 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/2NGKHpPvADxbmMkxBzKChr"
+    },
+    "href" : "https://api.spotify.com/v1/artists/2NGKHpPvADxbmMkxBzKChr",
+    "id" : "2NGKHpPvADxbmMkxBzKChr",
+    "name" : "The New Up",
+    "type" : "artist",
+    "uri" : "spotify:artist:2NGKHpPvADxbmMkxBzKChr"
+  } ],
+  "available_markets" : [ "US" ],
+  "copyrights" : [ {
+    "text" : "© 2016 Autonomy",
+    "type" : "C"
+  }, {
+    "text" : "? 2016 Autonomy",
+    "type" : "P"
+  } ],
+  "external_ids" : {
+    "upc" : "889326801719"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/21SJHqv1lJpQW0MNpwFaoL"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/21SJHqv1lJpQW0MNpwFaoL",
+  "id" : "21SJHqv1lJpQW0MNpwFaoL",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/a189b5aa5a21f0b6922ed8ae40143308f9a16ba3",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/0675dc14920d5c78d545ad3774d5cc83e29e1e8f",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/6b2c81d4b8d2e7543ec0b13565560dc94f4d7c3b",
+    "width" : 64
+  } ],
+  "label" : "Autonomy",
+  "name" : "Almost Human",
+  "popularity" : 0,
+  "release_date" : "2016-10-21",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/21SJHqv1lJpQW0MNpwFaoL/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2NGKHpPvADxbmMkxBzKChr"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2NGKHpPvADxbmMkxBzKChr",
+        "id" : "2NGKHpPvADxbmMkxBzKChr",
+        "name" : "The New Up",
+        "type" : "artist",
+        "uri" : "spotify:artist:2NGKHpPvADxbmMkxBzKChr"
+      } ],
+      "available_markets" : [ "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 216985,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7CfMSbEKdKlDlXQGEiQfBK"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7CfMSbEKdKlDlXQGEiQfBK",
+      "id" : "7CfMSbEKdKlDlXQGEiQfBK",
+      "name" : "Almost Human",
+      "preview_url" : "https://p.scdn.co/mp3-preview/5eb8e8284de8369eea8a3e6eb12fbcb1a09b55cc?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:7CfMSbEKdKlDlXQGEiQfBK"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:21SJHqv1lJpQW0MNpwFaoL"
+}

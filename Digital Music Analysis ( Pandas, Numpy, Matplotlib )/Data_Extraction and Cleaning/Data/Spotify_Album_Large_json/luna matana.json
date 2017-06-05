@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=luna+matana&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/25MkkfEousyfp2eyh38FUl"
+        },
+        "href" : "https://api.spotify.com/v1/artists/25MkkfEousyfp2eyh38FUl",
+        "id" : "25MkkfEousyfp2eyh38FUl",
+        "name" : "Lucio Dalla",
+        "type" : "artist",
+        "uri" : "spotify:artist:25MkkfEousyfp2eyh38FUl"
+      } ],
+      "available_markets" : [ "JP", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6oUpYSuxcMOSZVYr7yOXQn"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6oUpYSuxcMOSZVYr7yOXQn",
+      "id" : "6oUpYSuxcMOSZVYr7yOXQn",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/415b97326288d23f055e1b3720ac7d0fac0e4892",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/f15cee612002160ee34a4d9f8b6e85e7b7dde339",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/5fa35c915cbd55e149a8bf9b3566b6d38539ba96",
+        "width" : 64
+      } ],
+      "name" : "Luna Matana",
+      "type" : "album",
+      "uri" : "spotify:album:6oUpYSuxcMOSZVYr7yOXQn"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

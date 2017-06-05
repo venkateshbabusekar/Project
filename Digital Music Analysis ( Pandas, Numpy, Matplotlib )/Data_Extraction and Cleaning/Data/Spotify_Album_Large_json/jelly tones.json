@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=jelly+tones&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0Jb1cpfG4GB6pZfroFhAw0"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0Jb1cpfG4GB6pZfroFhAw0",
+        "id" : "0Jb1cpfG4GB6pZfroFhAw0",
+        "name" : "Ken Ishii",
+        "type" : "artist",
+        "uri" : "spotify:artist:0Jb1cpfG4GB6pZfroFhAw0"
+      } ],
+      "available_markets" : [ "CA", "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/5ega4UTSAhHqXqx3sNowH5"
+      },
+      "href" : "https://api.spotify.com/v1/albums/5ega4UTSAhHqXqx3sNowH5",
+      "id" : "5ega4UTSAhHqXqx3sNowH5",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/0275d2f76c4f3d54b8ea4465aebe0613389ffcdc",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/45082bb821d7b877f0a27e63adad55bcfb4c7276",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/5b0dfa4720e83e857d06c3086c06ac876c5ee179",
+        "width" : 64
+      } ],
+      "name" : "Jelly Tones",
+      "type" : "album",
+      "uri" : "spotify:album:5ega4UTSAhHqXqx3sNowH5"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}

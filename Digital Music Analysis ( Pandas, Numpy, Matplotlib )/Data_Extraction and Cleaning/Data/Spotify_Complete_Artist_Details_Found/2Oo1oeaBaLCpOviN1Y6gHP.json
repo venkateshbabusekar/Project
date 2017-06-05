@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/2Oo1oeaBaLCpOviN1Y6gHP"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 1
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/2Oo1oeaBaLCpOviN1Y6gHP",
+  "id" : "2Oo1oeaBaLCpOviN1Y6gHP",
+  "images" : [ ],
+  "name" : "EverDub",
+  "popularity" : 0,
+  "type" : "artist",
+  "uri" : "spotify:artist:2Oo1oeaBaLCpOviN1Y6gHP"
+}

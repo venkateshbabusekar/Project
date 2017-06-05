@@ -1,0 +1,81 @@
+{
+  "album_type" : "single",
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1WrqUPWlHN5FXCRcQgrkas"
+    },
+    "href" : "https://api.spotify.com/v1/artists/1WrqUPWlHN5FXCRcQgrkas",
+    "id" : "1WrqUPWlHN5FXCRcQgrkas",
+    "name" : "Lucius",
+    "type" : "artist",
+    "uri" : "spotify:artist:1WrqUPWlHN5FXCRcQgrkas"
+  } ],
+  "available_markets" : [ "MX", "US" ],
+  "copyrights" : [ {
+    "text" : "(C) 2016 Mom+Pop",
+    "type" : "C"
+  } ],
+  "external_ids" : {
+    "upc" : "886445655735"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/album/1bUk4PpV3SSccY2RsR09K5"
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/albums/1bUk4PpV3SSccY2RsR09K5",
+  "id" : "1bUk4PpV3SSccY2RsR09K5",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/74626ece5c6ab98bf7471832d3b55844fe863e2f",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/5d905966ec560a4de6622a15eb03106b43594797",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/4efc5d295afa0905932b9b83ffaf3a2f056e9209",
+    "width" : 64
+  } ],
+  "label" : "Mom & Pop Music",
+  "name" : "Something About You",
+  "popularity" : 12,
+  "release_date" : "2016-02-02",
+  "release_date_precision" : "day",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/albums/1bUk4PpV3SSccY2RsR09K5/tracks?offset=0&limit=50",
+    "items" : [ {
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1WrqUPWlHN5FXCRcQgrkas"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1WrqUPWlHN5FXCRcQgrkas",
+        "id" : "1WrqUPWlHN5FXCRcQgrkas",
+        "name" : "Lucius",
+        "type" : "artist",
+        "uri" : "spotify:artist:1WrqUPWlHN5FXCRcQgrkas"
+      } ],
+      "available_markets" : [ "MX", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 220398,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7hWnFZhVO88ZN5FW1Hth2G"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7hWnFZhVO88ZN5FW1Hth2G",
+      "id" : "7hWnFZhVO88ZN5FW1Hth2G",
+      "name" : "Something About You",
+      "preview_url" : "https://p.scdn.co/mp3-preview/eec6aa2117f8a59fd7b84b967c4ecc3dda85a775?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:7hWnFZhVO88ZN5FW1Hth2G"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  },
+  "type" : "album",
+  "uri" : "spotify:album:1bUk4PpV3SSccY2RsR09K5"
+}

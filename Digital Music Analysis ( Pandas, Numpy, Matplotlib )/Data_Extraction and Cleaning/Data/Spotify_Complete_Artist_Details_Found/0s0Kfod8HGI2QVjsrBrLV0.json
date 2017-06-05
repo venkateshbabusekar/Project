@@ -1,0 +1,17 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/0s0Kfod8HGI2QVjsrBrLV0"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 1
+  },
+  "genres" : [ ],
+  "href" : "https://api.spotify.com/v1/artists/0s0Kfod8HGI2QVjsrBrLV0",
+  "id" : "0s0Kfod8HGI2QVjsrBrLV0",
+  "images" : [ ],
+  "name" : "Flanz",
+  "popularity" : 0,
+  "type" : "artist",
+  "uri" : "spotify:artist:0s0Kfod8HGI2QVjsrBrLV0"
+}

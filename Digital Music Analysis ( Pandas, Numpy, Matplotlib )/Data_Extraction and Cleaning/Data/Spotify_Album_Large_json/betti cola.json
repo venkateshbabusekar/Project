@@ -1,0 +1,45 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=betti-cola&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2wPm6Ouj7DpVS4g09fEoOT"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2wPm6Ouj7DpVS4g09fEoOT",
+        "id" : "2wPm6Ouj7DpVS4g09fEoOT",
+        "name" : "Cub",
+        "type" : "artist",
+        "uri" : "spotify:artist:2wPm6Ouj7DpVS4g09fEoOT"
+      } ],
+      "available_markets" : [ "US" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2ux1MBf4NwoqSSYPlFxFQe"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2ux1MBf4NwoqSSYPlFxFQe",
+      "id" : "2ux1MBf4NwoqSSYPlFxFQe",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/30b2fa516952a399768cd447bbdf06a513098507",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/bcbb86aed976babae54088bf8ac428e88beb1d87",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/2ea0eb13a0966c95484b3792d988ed0716e293d1",
+        "width" : 64
+      } ],
+      "name" : "Betti Cola",
+      "type" : "album",
+      "uri" : "spotify:album:2ux1MBf4NwoqSSYPlFxFQe"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 1
+  }
+}
