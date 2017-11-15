@@ -1,0 +1,37 @@
+intelycare.net/hub
+
+username: pope@intelycare.com
+
+password: Health1
+
+
+https://developer.amazon.com/blogs/post/Tx14R0IYYGH3SKT/Flask-Ask-A-New-Python-Framework-for-Rapid-Alexa-Skills-Kit-Development
+
+
+http://tobuildsomething.com/2015/08/14/Amazon-Echo-Alexa-Tutorial-The-Definitive-Guide-to-Coding-an-Alexa-Skill/
+
+
+https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial
+
+
+https://github.com/johnwheeler/flask-ask/tree/master/samples
+
+
+
+
+https://github.com/MattyG248/alexa-Hackathon
+
+
+
+
+**********************************************
+r1=requests.post("http://intelycare.net/isystem/shift/create.php",data={'Section':'Coreid','cid':151,'uid':155})
+       data = r1.json()
+       coreId=data[u'data'][u'coreid']
+       print(coreId)
+       r2 = requests.post("http://intelycare.net/isystem/pages/partcare.php", data={'type':'Nurse','shiftid':id,'provider':nurses,'floor':20,'blockType':'','shift':'','startDate':'','weeks':'','Section': 'Dashboard','uid': 155,'requestid':'', 'cid':151,'caredate':2017-10-21,'status':'Requested'})
+       r3= requests.post("http://intelycare.net/isystem/shift/create.php", data={'coreid':coreId,'Section':'ConfView','cid':151,'uid':155})
+       r4=requests.post("http://intelycare.net/isystem/shift/create.php",data={'coreid': coreId, 'status':'PNetwork','Section': 'Confirm', 'uid': 155})
+
+***********************************************
+http://intelycare.net/isystem/shift/create.php
