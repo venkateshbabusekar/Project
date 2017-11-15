@@ -1,0 +1,1964 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="8/8/2017 12:42:38 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-L2VG3I6"
+  DTS:CreatorName="DESKTOP-L2VG3I6\tarangini"
+  DTS:DTSID="{D94AFF97-316C-4215-B8F9-CF012066C503}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.0600.250"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package6"
+  DTS:PackageType="5"
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{B709A8B6-788A-477A-86E1-22DEBA792682}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[cost_eur_step_1_of_4]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{E998BDF4-AA9D-414D-8CEE-BC88974F908B}"
+      DTS:ObjectName="cost_eur_step_1_of_4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\tarangini\Desktop\cross_reference_2017_summer\FlatFiles-2017-07-27\cost_eur_step_1_of_4.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Brand_ID"
+              DTS:DTSID="{9C86D04A-796F-4344-82C5-42EB8C2EE17A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CurrencyKey"
+              DTS:DTSID="{3086B297-8A44-409A-AFF8-4A2507F9F4E9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitCost"
+              DTS:DTSID="{9C5F1EFE-84A2-4B1C-97D9-992EDF56F46F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SCD_EffectiveDate"
+              DTS:DTSID="{66AFA880-212C-46DA-A815-B9DAB8F90CB5}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-1JULO1L.retail_dw.info7290]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{E640C8BE-B442-4433-8DBA-696E36AD8F8A}"
+      DTS:ObjectName="DESKTOP-1JULO1L.retail_dw.info7290">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-L2VG3I6;Initial Catalog=retail_dw;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-1JULO1L.retail_sor_na.info7290]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{6EB482BC-B075-4340-AC88-50DBEED219D9}"
+      DTS:ObjectName="DESKTOP-1JULO1L.retail_sor_na.info7290">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-L2VG3I6;Initial Catalog=retail_sor_na;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{05E37127-6618-4692-942E-E65B79418706}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\tarangini\Desktop\cross_reference_2017_summer\FlatFiles-2017-07-27\cost_eur_step_1_of_4.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Brand_ID"
+              DTS:DTSID="{F73D91F9-A22B-4F31-AC9F-C587F3DA950C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CurrencyKey"
+              DTS:DTSID="{D11F8BC4-F73A-4E10-A379-0741E8B7EB55}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitCost"
+              DTS:DTSID="{29F9D6F2-DA0F-457F-80EB-4915F37266B3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SCD_EffectiveDate"
+              DTS:DTSID="{5DF0E5D1-BDC0-4E4C-9472-00EB1F99AE55}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Data Flow Task 1 1 1"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{fd109757-db35-47be-a4fa-56934e479cdf}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Data Flow Task 1 1 1"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="cost_eur_step_1_of_4 1"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[Brand_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].ExternalColumns[Brand_ID]"
+                      length="50"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[Brand_ID]"
+                      name="Brand_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[CurrencyKey]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].ExternalColumns[CurrencyKey]"
+                      length="50"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[CurrencyKey]"
+                      name="CurrencyKey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[UnitCost]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].ExternalColumns[UnitCost]"
+                      length="50"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[UnitCost]"
+                      name="UnitCost"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[SCD_EffectiveDate]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].ExternalColumns[SCD_EffectiveDate]"
+                      length="50"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[SCD_EffectiveDate]"
+                      name="SCD_EffectiveDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].ExternalColumns[Brand_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Brand_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].ExternalColumns[CurrencyKey]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CurrencyKey" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].ExternalColumns[UnitCost]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="UnitCost" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].ExternalColumns[SCD_EffectiveDate]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="SCD_EffectiveDate" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task 1 1 1\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task 1 1 1\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Data Conversion.Inputs[Data Conversion Input].Columns[CurrencyKey]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CurrencyKey"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[CurrencyKey]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Data Conversion.Inputs[Data Conversion Input].Columns[UnitCost]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="UnitCost"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[UnitCost]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Data Conversion.Inputs[Data Conversion Input].Columns[SCD_EffectiveDate]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="SCD_EffectiveDate"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[SCD_EffectiveDate]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Data Flow Task 1 1 1\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CurrencyKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CurrencyKey]"
+                      name="Copy of CurrencyKey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[CurrencyKey]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of UnitCost]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of UnitCost]"
+                      name="Copy of UnitCost"
+                      precision="18"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[UnitCost]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of SCD_EffectiveDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of SCD_EffectiveDate]"
+                      name="Copy of SCD_EffectiveDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[SCD_EffectiveDate]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Data Flow Task 1 1 1\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task 1 1 1\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task 1 1 1\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Derived Column.Inputs[Derived Column Input].Columns[Copy of UnitCost]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of UnitCost"
+                      cachedPrecision="18"
+                      lineageId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Copy of UnitCost]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Derived Column.Inputs[Derived Column Input].Columns[EndOfDayRate]"
+                      cachedDataType="numeric"
+                      cachedName="EndOfDayRate"
+                      cachedPrecision="19"
+                      cachedScale="4"
+                      lineageId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[EndOfDayRate]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Data Flow Task 1 1 1\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Derived Column.Outputs[Derived Column Output].Columns[Derived unit coat]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task 1 1 1\Derived Column.Outputs[Derived Column Output].Columns[Derived unit coat]"
+                      name="Derived unit coat"
+                      precision="38"
+                      scale="16"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Copy of UnitCost]} / #{Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[EndOfDayRate]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[Copy of UnitCost] / EndOfDayRate</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Data Flow Task 1 1 1\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task 1 1 1\Factexchange_ 1"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="Factexchange_ 1"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[FactExchangeRate]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-1JULO1L.retail_dw.info7290]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-1JULO1L.retail_dw.info7290]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[ExchangeRateSK]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[ExchangeRateSK]"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[ExchangeRateSK]"
+                      name="ExchangeRateSK"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencyDateSK]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[CurrencyDateSK]"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencyDateSK]"
+                      name="CurrencyDateSK"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencyDateKey]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[CurrencyDateKey]"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencyDateKey]"
+                      name="CurrencyDateKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencySK]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[CurrencySK]"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencySK]"
+                      name="CurrencySK"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[EndOfDayRate]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[EndOfDayRate]"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[EndOfDayRate]"
+                      name="EndOfDayRate"
+                      precision="19"
+                      scale="4"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[SOR_ID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[SOR_ID]"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[SOR_ID]"
+                      name="SOR_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[SOR_LoadDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[SOR_LoadDate]"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[SOR_LoadDate]"
+                      name="SOR_LoadDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[SOR_UpdateDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[SOR_UpdateDate]"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[SOR_UpdateDate]"
+                      name="SOR_UpdateDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[DI_Job_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[DI_Job_ID]"
+                      length="20"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[DI_Job_ID]"
+                      name="DI_Job_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[DI_Create_Date]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[DI_Create_Date]"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[DI_Create_Date]"
+                      name="DI_Create_Date"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[DI_Modified_Date]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[DI_Modified_Date]"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[DI_Modified_Date]"
+                      name="DI_Modified_Date"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[ExchangeRateSK]"
+                      dataType="i4"
+                      name="ExchangeRateSK" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[CurrencyDateSK]"
+                      dataType="i4"
+                      name="CurrencyDateSK" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[CurrencyDateKey]"
+                      dataType="dbDate"
+                      name="CurrencyDateKey" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[CurrencySK]"
+                      dataType="i4"
+                      name="CurrencySK" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[EndOfDayRate]"
+                      dataType="numeric"
+                      name="EndOfDayRate"
+                      precision="19"
+                      scale="4" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[SOR_ID]"
+                      dataType="i4"
+                      name="SOR_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[SOR_LoadDate]"
+                      dataType="dbTimeStamp"
+                      name="SOR_LoadDate" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[SOR_UpdateDate]"
+                      dataType="dbTimeStamp"
+                      name="SOR_UpdateDate" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[DI_Job_ID]"
+                      dataType="wstr"
+                      length="20"
+                      name="DI_Job_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[DI_Create_Date]"
+                      dataType="dbTimeStamp"
+                      name="DI_Create_Date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].ExternalColumns[DI_Modified_Date]"
+                      dataType="dbTimeStamp"
+                      name="DI_Modified_Date" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[ExchangeRateSK]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[ExchangeRateSK]"
+                      name="ExchangeRateSK" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[CurrencyDateSK]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[CurrencyDateSK]"
+                      name="CurrencyDateSK" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[CurrencyDateKey]"
+                      dataType="dbDate"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[CurrencyDateKey]"
+                      name="CurrencyDateKey" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[CurrencySK]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[CurrencySK]"
+                      name="CurrencySK" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[EndOfDayRate]"
+                      dataType="numeric"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[EndOfDayRate]"
+                      name="EndOfDayRate"
+                      precision="19"
+                      scale="4" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[SOR_ID]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[SOR_ID]"
+                      name="SOR_ID" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[SOR_LoadDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[SOR_LoadDate]"
+                      name="SOR_LoadDate" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[SOR_UpdateDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[SOR_UpdateDate]"
+                      name="SOR_UpdateDate" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[DI_Job_ID]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[DI_Job_ID]"
+                      name="DI_Job_ID" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[DI_Create_Date]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[DI_Create_Date]"
+                      name="DI_Create_Date" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[DI_Modified_Date]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[DI_Modified_Date]"
+                      name="DI_Modified_Date" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task 1 1 1\Merge Join"
+              componentClassID="Microsoft.MergeJoin"
+              contactInfo="Merge Join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combine two sorted data flows into one using the FULL, LEFT, or INNER join. We recommend this transformation when data flows can be sorted at their sources."
+              name="Merge Join"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of join to perform."
+                  name="JoinType"
+                  typeConverter="JoinType">2</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the number of columns in the ordering key."
+                  name="NumKeyColumns">2</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the null values are treated as equal values."
+                  name="TreatNullsAsEqual">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Indicates the requested maximum buffers per input before blocking."
+                  name="MaxBuffersPerInput">5</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input]"
+                  hasSideEffects="true"
+                  name="Merge Join Left Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input].Columns[Copy of CurrencyKey]"
+                      cachedDataType="i4"
+                      cachedName="Copy of CurrencyKey"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Copy of CurrencyKey]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input].Columns[Copy of SCD_EffectiveDate]"
+                      cachedDataType="dbDate"
+                      cachedName="Copy of SCD_EffectiveDate"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Copy of SCD_EffectiveDate]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input].Columns[Brand_ID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Brand_ID"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Brand_ID]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input].Columns[SCD_EffectiveDate]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="SCD_EffectiveDate"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[SCD_EffectiveDate]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input].Columns[Copy of UnitCost]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of UnitCost"
+                      cachedPrecision="18"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Copy of UnitCost]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Right Input]"
+                  hasSideEffects="true"
+                  name="Merge Join Right Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Right Input].Columns[CurrencyDateKey]"
+                      cachedDataType="dbDate"
+                      cachedName="CurrencyDateKey"
+                      cachedSortKeyPosition="2"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[CurrencyDateKey]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Right Input].Columns[CurrencySK]"
+                      cachedDataType="i4"
+                      cachedName="CurrencySK"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[CurrencySK]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Right Input].Columns[EndOfDayRate]"
+                      cachedDataType="numeric"
+                      cachedName="EndOfDayRate"
+                      cachedPrecision="19"
+                      cachedScale="4"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[EndOfDayRate]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output]"
+                  isSorted="true"
+                  name="Merge Join Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Brand_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Brand_ID]"
+                      name="Brand_ID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input].Columns[Brand_ID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[SCD_EffectiveDate]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[SCD_EffectiveDate]"
+                      name="SCD_EffectiveDate">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input].Columns[SCD_EffectiveDate]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Copy of CurrencyKey]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Copy of CurrencyKey]"
+                      name="Copy of CurrencyKey"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input].Columns[Copy of CurrencyKey]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Copy of UnitCost]"
+                      dataType="numeric"
+                      lineageId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Copy of UnitCost]"
+                      name="Copy of UnitCost"
+                      precision="18">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input].Columns[Copy of UnitCost]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Copy of SCD_EffectiveDate]"
+                      dataType="dbDate"
+                      lineageId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Copy of SCD_EffectiveDate]"
+                      name="Copy of SCD_EffectiveDate"
+                      sortKeyPosition="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input].Columns[Copy of SCD_EffectiveDate]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[EndOfDayRate]"
+                      dataType="numeric"
+                      lineageId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[EndOfDayRate]"
+                      name="EndOfDayRate"
+                      precision="19"
+                      scale="4">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Right Input].Columns[EndOfDayRate]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination 1"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[STAGE_Eur_cost]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-1JULO1L.retail_sor_na.info7290]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-1JULO1L.retail_sor_na.info7290]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Copy of SCD_EffectiveDate]"
+                      cachedDataType="dbDate"
+                      cachedName="Copy of SCD_EffectiveDate"
+                      cachedSortKeyPosition="2"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[SCD_EffectiveDate]"
+                      lineageId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Copy of SCD_EffectiveDate]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Copy of CurrencyKey]"
+                      cachedDataType="i4"
+                      cachedName="Copy of CurrencyKey"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[CurrencyKey]"
+                      lineageId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Copy of CurrencyKey]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Brand_ID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Brand_ID"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                      lineageId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output].Columns[Brand_ID]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Derived unit coat]"
+                      cachedDataType="numeric"
+                      cachedName="Derived unit coat"
+                      cachedPrecision="38"
+                      cachedScale="16"
+                      externalMetadataColumnId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[derivedunitcost]"
+                      lineageId="Package\Data Flow Task 1 1 1\Derived Column.Outputs[Derived Column Output].Columns[Derived unit coat]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="id" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[CurrencyKey]"
+                      dataType="i4"
+                      name="CurrencyKey" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[UnitCost]"
+                      dataType="r8"
+                      name="UnitCost" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Endoftherate]"
+                      dataType="r8"
+                      name="Endoftherate" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[derivedunitcost]"
+                      dataType="r8"
+                      name="derivedunitcost" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[SCD_EffectiveDate]"
+                      dataType="dbDate"
+                      name="SCD_EffectiveDate" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task 1 1 1\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task 1 1 1\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort.Inputs[Sort Input].Columns[Brand_ID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Brand_ID"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[Brand_ID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort.Inputs[Sort Input].Columns[SCD_EffectiveDate]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="SCD_EffectiveDate"
+                      lineageId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[SCD_EffectiveDate]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort.Inputs[Sort Input].Columns[Copy of CurrencyKey]"
+                      cachedDataType="i4"
+                      cachedName="Copy of CurrencyKey"
+                      lineageId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CurrencyKey]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort.Inputs[Sort Input].Columns[Copy of UnitCost]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of UnitCost"
+                      cachedPrecision="18"
+                      lineageId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of UnitCost]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort.Inputs[Sort Input].Columns[Copy of SCD_EffectiveDate]"
+                      cachedDataType="dbDate"
+                      cachedName="Copy of SCD_EffectiveDate"
+                      lineageId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of SCD_EffectiveDate]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">2</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Brand_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Brand_ID]"
+                      name="Brand_ID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[Brand_ID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[SCD_EffectiveDate]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[SCD_EffectiveDate]"
+                      name="SCD_EffectiveDate">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output].Columns[SCD_EffectiveDate]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Copy of CurrencyKey]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Copy of CurrencyKey]"
+                      name="Copy of CurrencyKey"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of CurrencyKey]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Copy of UnitCost]"
+                      dataType="numeric"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Copy of UnitCost]"
+                      name="Copy of UnitCost"
+                      precision="18">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of UnitCost]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Copy of SCD_EffectiveDate]"
+                      dataType="dbDate"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output].Columns[Copy of SCD_EffectiveDate]"
+                      name="Copy of SCD_EffectiveDate"
+                      sortKeyPosition="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of SCD_EffectiveDate]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task 1 1 1\Sort 4"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort 4"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task 1 1 1\Sort 4.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort 4.Inputs[Sort Input].Columns[ExchangeRateSK]"
+                      cachedDataType="i4"
+                      cachedName="ExchangeRateSK"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[ExchangeRateSK]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort 4.Inputs[Sort Input].Columns[CurrencyDateSK]"
+                      cachedDataType="i4"
+                      cachedName="CurrencyDateSK"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencyDateSK]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort 4.Inputs[Sort Input].Columns[CurrencyDateKey]"
+                      cachedDataType="dbDate"
+                      cachedName="CurrencyDateKey"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencyDateKey]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort 4.Inputs[Sort Input].Columns[CurrencySK]"
+                      cachedDataType="i4"
+                      cachedName="CurrencySK"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencySK]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort 4.Inputs[Sort Input].Columns[EndOfDayRate]"
+                      cachedDataType="numeric"
+                      cachedName="EndOfDayRate"
+                      cachedPrecision="19"
+                      cachedScale="4"
+                      lineageId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[EndOfDayRate]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[ExchangeRateSK]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[ExchangeRateSK]"
+                      name="ExchangeRateSK">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[ExchangeRateSK]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[CurrencyDateSK]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[CurrencyDateSK]"
+                      name="CurrencyDateSK">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencyDateSK]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[CurrencyDateKey]"
+                      dataType="dbDate"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[CurrencyDateKey]"
+                      name="CurrencyDateKey"
+                      sortKeyPosition="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencyDateKey]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[CurrencySK]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[CurrencySK]"
+                      name="CurrencySK"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[CurrencySK]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[EndOfDayRate]"
+                      dataType="numeric"
+                      lineageId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output].Columns[EndOfDayRate]"
+                      name="EndOfDayRate"
+                      precision="19"
+                      scale="4">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output].Columns[EndOfDayRate]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Data Flow Task 1 1 1.Paths[Data Conversion Output]"
+              endId="Package\Data Flow Task 1 1 1\Sort.Inputs[Sort Input]"
+              name="Data Conversion Output"
+              startId="Package\Data Flow Task 1 1 1\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Data Flow Task 1 1 1.Paths[Derived Column Output]"
+              endId="Package\Data Flow Task 1 1 1\OLE DB Destination 1.Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Data Flow Task 1 1 1\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Data Flow Task 1 1 1.Paths[Flat File Source Output]"
+              endId="Package\Data Flow Task 1 1 1\Data Conversion.Inputs[Data Conversion Input]"
+              name="Flat File Source Output"
+              startId="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Data Flow Task 1 1 1.Paths[Merge Join Output]"
+              endId="Package\Data Flow Task 1 1 1\Derived Column.Inputs[Derived Column Input]"
+              name="Merge Join Output"
+              startId="Package\Data Flow Task 1 1 1\Merge Join.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Data Flow Task 1 1 1.Paths[OLE DB Source Output]"
+              endId="Package\Data Flow Task 1 1 1\Sort 4.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Data Flow Task 1 1 1\Factexchange_ 1.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Data Flow Task 1 1 1.Paths[Sort Output]"
+              endId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Data Flow Task 1 1 1\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\Data Flow Task 1 1 1.Paths[Sort Output1]"
+              endId="Package\Data Flow Task 1 1 1\Merge Join.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Data Flow Task 1 1 1\Sort 4.Outputs[Sort Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="168.8,41.6"
+          Id="Package\Data Flow Task 1 1 1"
+          TopLeft="60,60" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Data Flow Task 1 1 1">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="179.2,41.6"
+          Id="Package\Data Flow Task 1 1 1\OLE DB Destination 1"
+          TopLeft="632.8,660" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Data Flow Task 1 1 1\Derived Column"
+          TopLeft="701.333333333333,517.333333333333" />
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\Data Flow Task 1 1 1\Data Conversion"
+          TopLeft="756,197.333333333333" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Data Flow Task 1 1 1\Sort"
+          TopLeft="753.333333333333,286.666666666667" />
+        <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\Data Flow Task 1 1 1\Factexchange_ 1"
+          TopLeft="60,161.6" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Data Flow Task 1 1 1\Sort 4"
+          TopLeft="135.6,263.2" />
+        <NodeLayout
+          Size="129.6,41.6"
+          Id="Package\Data Flow Task 1 1 1\Merge Join"
+          TopLeft="657.333333333333,408" />
+        <NodeLayout
+          Size="192,41.6"
+          Id="Package\Data Flow Task 1 1 1\cost_eur_step_1_of_4 1"
+          TopLeft="696.952392026681,90.9333280825143" />
+        <EdgeLayout
+          Id="Package\Data Flow Task 1 1 1.Paths[Derived Column Output]"
+          TopLeft="777.733333333333,558.933333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-55.3333333333334,101.066666666667"
+              Start="0,0"
+              End="-55.3333333333334,93.5666666666666">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.5333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,46.5333333333333"
+                    Point2="0,50.5333333333333"
+                    Point3="-4,50.5333333333333" />
+                  <mssgle:LineSegment
+                    End="-51.3333333333334,50.5333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-51.3333333333334,50.5333333333333"
+                    Point2="-55.3333333333334,50.5333333333333"
+                    Point3="-55.3333333333334,54.5333333333333" />
+                  <mssgle:LineSegment
+                    End="-55.3333333333334,93.5666666666666" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 1 1 1.Paths[Data Conversion Output]"
+          TopLeft="833.6,238.933333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-31.4666666666669,47.7333333333333"
+              Start="0,0"
+              End="-31.4666666666669,40.2333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.8666666666667" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.8666666666667"
+                    Point2="0,23.8666666666667"
+                    Point3="-4,23.8666666666667" />
+                  <mssgle:LineSegment
+                    End="-27.4666666666669,23.8666666666667" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-27.4666666666669,23.8666666666667"
+                    Point2="-31.4666666666669,23.8666666666667"
+                    Point3="-31.4666666666669,27.8666666666667" />
+                  <mssgle:LineSegment
+                    End="-31.4666666666669,40.2333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 1 1 1.Paths[Sort Output1]"
+          TopLeft="184.4,304.8">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="517.466666666667,103.2"
+              Start="0,0"
+              End="517.466666666667,95.7">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.1648780487805" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,57.1648780487805"
+                    Point2="0,61.1648780487805"
+                    Point3="4,61.1648780487805" />
+                  <mssgle:LineSegment
+                    End="513.466666666667,61.1648780487805" />
+                  <mssgle:CubicBezierSegment
+                    Point1="513.466666666667,61.1648780487805"
+                    Point2="517.466666666667,61.1648780487805"
+                    Point3="517.466666666667,65.1648780487805" />
+                  <mssgle:LineSegment
+                    End="517.466666666667,95.7" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 1 1 1.Paths[Sort Output]"
+          TopLeft="802.133333333333,328.266666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-80,79.7333333333333"
+              Start="0,0"
+              End="-80,72.2333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.8666666666667" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,35.8666666666667"
+                    Point2="0,39.8666666666667"
+                    Point3="-4,39.8666666666667" />
+                  <mssgle:LineSegment
+                    End="-76,39.8666666666667" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-76,39.8666666666667"
+                    Point2="-80,39.8666666666667"
+                    Point3="-80,43.8666666666667" />
+                  <mssgle:LineSegment
+                    End="-80,72.2333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 1 1 1.Paths[OLE DB Source Output]"
+          TopLeft="134.4,203.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="50,59.9999999999999"
+              Start="0,0"
+              End="50,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.9999999999999"
+                    Point2="0,29.9999999999999"
+                    Point3="4,29.9999999999999" />
+                  <mssgle:LineSegment
+                    End="46,29.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="46,29.9999999999999"
+                    Point2="50,29.9999999999999"
+                    Point3="50,33.9999999999999" />
+                  <mssgle:LineSegment
+                    End="50,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 1 1 1.Paths[Merge Join Output]"
+          TopLeft="722.133333333333,449.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="55.6,67.7333333333333"
+              Start="0,0"
+              End="55.6,60.2333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.8666666666666" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,29.8666666666666"
+                    Point2="0,33.8666666666666"
+                    Point3="4,33.8666666666666" />
+                  <mssgle:LineSegment
+                    End="51.6,33.8666666666666" />
+                  <mssgle:CubicBezierSegment
+                    Point1="51.6,33.8666666666666"
+                    Point2="55.6,33.8666666666666"
+                    Point3="55.6,37.8666666666666" />
+                  <mssgle:LineSegment
+                    End="55.6,60.2333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 1 1 1.Paths[Flat File Source Output]"
+          TopLeft="792.952392026681,132.533328082514">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="40.6476079733195,64.800005250819"
+              Start="0,0"
+              End="40.6476079733195,57.300005250819">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.4000026254095" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.4000026254095"
+                    Point2="0,32.4000026254095"
+                    Point3="4,32.4000026254095" />
+                  <mssgle:LineSegment
+                    End="36.6476079733195,32.4000026254095" />
+                  <mssgle:CubicBezierSegment
+                    Point1="36.6476079733195,32.4000026254095"
+                    Point2="40.6476079733195,32.4000026254095"
+                    Point3="40.6476079733195,36.4000026254095" />
+                  <mssgle:LineSegment
+                    End="40.6476079733195,57.300005250819" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task 1 1 1\OLE DB Destination 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task 1 1 1\Factexchange_ 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
